@@ -1,0 +1,378 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.84.2">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[-1, -1, -1]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'session': u'001', u'participant': u''}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="aqv2" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="False" valType="bool"/>
+    <Param name="Screen" updates="None" val="2" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="image_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Imagemteste" valType="str"/>
+        <Param name="size" updates="constant" val="(512, 512)" valType="code"/>
+      </ImageComponent>
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Fase de aquecimento&amp;#10;" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.9)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse">
+        <Param name="name" updates="None" val="mouse" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+      <RatingScaleComponent name="rating_2">
+        <Param name="labels" updates="constant" val="" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -0.7" valType="str"/>
+        <Param name="high" updates="constant" val="1" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="Atende, Não atende" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="rating_2" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="lets">
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_4" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Aperte qualquer tecla para começar o experimento..." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_4">
+        <Param name="name" updates="None" val="mouse_4" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="experiment">
+      <ImageComponent name="image_test">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_test" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="pix" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Imagemteste" valType="str"/>
+        <Param name="size" updates="constant" val="(512, 512)" valType="code"/>
+      </ImageComponent>
+      <RatingScaleComponent name="rating">
+        <Param name="labels" updates="constant" val="" valType="str"/>
+        <Param name="pos" updates="constant" val="0, -0.7" valType="str"/>
+        <Param name="high" updates="constant" val="1" valType="code"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="markerStart" updates="constant" val="" valType="str"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="code"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="low" updates="constant" val="0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="categoryChoices" updates="constant" val="Atende, Não atende" valType="str"/>
+        <Param name="customize_everything" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="rating" valType="code"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+      <MouseComponent name="mouse_2">
+        <Param name="name" updates="None" val="mouse_2" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+      </MouseComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="title">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="title" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Avaliação de Qualidade Visual" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.8)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <TextComponent name="question">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="question" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="A imagem apresentada atende a critérios essenciais de qualidade para se passar à etapa de emissão de laudo ?" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <TextComponent name="goon">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="goon" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="text" updates="constant" val="Aperte qualquer tecla para continuar..." valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.9)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse_3">
+        <Param name="name" updates="None" val="mouse_3" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="conditionsFile" updates="None" val="trial.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'Imagemteste': u'Test_0_10_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_3_50_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials_2"/>
+    <Routine name="lets"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="arquivo (1).xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'Imagemteste': u'Test_0_10_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_20_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_30_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_50_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_20_jpg_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_30_jpg_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_50_jpg_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_0_70_jpg_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Test_1_10_jp2_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_20_jp2_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_30_jp2_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_50_jp2_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_20_jpg_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_30_jpg_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_50_jpg_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_1_70_jpg_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Test_2_10_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_20_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_30_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_50_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_20_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_30_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_50_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_2_70_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Test_3_10_jp2_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_20_jp2_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_30_jp2_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_50_jp2_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_20_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_30_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_50_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_3_70_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Test_4_10_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_20_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_30_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_50_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_20_jpg_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_30_jpg_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_50_jpg_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_4_70_jpg_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Test_5_10_jp2_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_20_jp2_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_30_jp2_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_50_jp2_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_20_jpg_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_30_jpg_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_50_jpg_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_5_70_jpg_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Test_6_10_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_20_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_30_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_50_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_20_jpg_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_30_jpg_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_50_jpg_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_6_70_jpg_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Test_7_10_jp2_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_20_jp2_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_30_jp2_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_50_jp2_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_20_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_30_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_50_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_7_70_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Test_8_10_jp2_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_20_jp2_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_30_jp2_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_50_jp2_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_20_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_30_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_50_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_8_70_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Test_9_10_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_20_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_30_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_50_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_20_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_30_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_50_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_9_70_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Test_0_10_jp2_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_20_jp2_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_30_jp2_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_50_jp2_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_20_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_30_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_50_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_0_70_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Test_1_10_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_20_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_30_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_50_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_20_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_30_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_50_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_1_70_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Test_2_10_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_20_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_30_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_50_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_20_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_30_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_50_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_2_70_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Test_3_10_jp2_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_20_jp2_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_30_jp2_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_50_jp2_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_20_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_30_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_50_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_3_70_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Test_4_10_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_20_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_30_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_50_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_20_jpg_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_30_jpg_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_50_jpg_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_4_70_jpg_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Test_5_10_jp2_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_20_jp2_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_30_jp2_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_50_jp2_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_20_jpg_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_30_jpg_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_50_jpg_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_5_70_jpg_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Test_6_10_jp2_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_20_jp2_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_30_jp2_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_50_jp2_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_20_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_30_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_50_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_6_70_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Test_7_10_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_20_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_30_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_50_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_20_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_30_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_50_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_7_70_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Test_8_10_jp2_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_20_jp2_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_30_jp2_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_50_jp2_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_20_jpg_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_30_jpg_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_50_jpg_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_8_70_jpg_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Test_9_10_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_20_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_30_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_50_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_20_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_30_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_50_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}, {u'Imagemteste': u'Orig_0_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}, {u'Imagemteste': u'Orig_1_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}, {u'Imagemteste': u'Orig_2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}, {u'Imagemteste': u'Orig_3_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}, {u'Imagemteste': u'Orig_4_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}, {u'Imagemteste': u'Orig_5_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}, {u'Imagemteste': u'Orig_6_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}, {u'Imagemteste': u'Orig_7_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}, {u'Imagemteste': u'Orig_8_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}, {u'Imagemteste': u'Orig_9_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}, {u'Imagemteste': u'Orig_0_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}, {u'Imagemteste': u'Orig_1_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}, {u'Imagemteste': u'Orig_2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}, {u'Imagemteste': u'Orig_3_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}, {u'Imagemteste': u'Orig_4_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}, {u'Imagemteste': u'Orig_5_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}, {u'Imagemteste': u'Orig_6_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}, {u'Imagemteste': u'Orig_7_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}, {u'Imagemteste': u'Orig_8_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}, {u'Imagemteste': u'Orig_9_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="experiment"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
