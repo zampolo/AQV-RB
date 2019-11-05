@@ -1,0 +1,11 @@
+Imagemteste,Imagemoriginal,n,mouse.leftButton_mean,mouse.leftButton_raw,mouse.leftButton_std,mouse.midButton_mean,mouse.midButton_raw,mouse.midButton_std,mouse.rightButton_mean,mouse.rightButton_raw,mouse.rightButton_std,mouse.x_mean,mouse.x_raw,mouse.y_mean,mouse.y_raw,rating_2.response_raw,rating_2.rt_mean,rating_2.rt_raw,rating_2.rt_std,order
+Test_0_10_jp2_bone.png,Orig_0_bone.png,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.108333333333,0.10833333333333334,-0.902222222222,-0.90222222222222226,u'Alterado',2.29299998283,2.2929999828338623,0.0,1.0
+Test_3_50_jpg_bone.png,Orig_3_bone.png,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.0555555555556,-0.055555555555555552,-0.911111111111,-0.91111111111111109,u'Normal',1.61099994183,1.6109999418258667,0.0,2.0
+Test_9_70_jpg_soft.png,Orig_9_soft.png,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0472222222222,0.047222222222222221,-0.906666666667,-0.90666666666666662,u'Inconclusivo',3.42000007629,3.4200000762939453,0.0,0.0
+
+extraInfo
+date,2017_mar_23_1108
+frameRate,59.8816086823
+expName,aqv2
+session,001
+participant,

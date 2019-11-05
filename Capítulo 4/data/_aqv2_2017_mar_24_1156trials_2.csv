@@ -1,0 +1,11 @@
+Imagemteste,Imagemoriginal,n,key_resp_5.keys_raw,mouse.leftButton_mean,mouse.leftButton_raw,mouse.leftButton_std,mouse.midButton_mean,mouse.midButton_raw,mouse.midButton_std,mouse.rightButton_mean,mouse.rightButton_raw,mouse.rightButton_std,mouse.x_mean,mouse.x_raw,mouse.y_mean,mouse.y_raw,rating_2.response_raw,rating_2.rt_mean,rating_2.rt_raw,rating_2.rt_std,order
+Test_0_10_jp2_bone.png,Orig_0_bone.png,1.0,,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.00833333333333,-0.0083333333333333332,-0.946666666667,-0.94666666666666666,u'Atende',2.59299993515,2.5929999351501465,0.0,1.0
+Test_3_50_jpg_bone.png,Orig_3_bone.png,1.0,,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0902777777778,0.090277777777777776,-0.904444444444,-0.9044444444444445,u'N\xe3o atende',2.07800006866,2.078000068664551,0.0,2.0
+Test_9_70_jpg_soft.png,Orig_9_soft.png,1.0,,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.141666666667,0.14166666666666666,-0.931111111111,-0.93111111111111111,u'N\xe3o atende',17.9300003052,17.93000030517578,0.0,0.0
+
+extraInfo
+date,2017_mar_24_1156
+frameRate,59.9005773856
+expName,aqv2
+session,001
+participant,

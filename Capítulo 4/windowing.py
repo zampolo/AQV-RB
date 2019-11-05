@@ -1,59 +1,74 @@
-import pydicom
+# -*- coding: utf-8 -*-
+# windowing.py
+#
+# Author: Luana Gonçalves, and Ronaldo F. Zampolo
+#
+# 2017, Feb. 7
+#
+
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot  as plt
 import scipy
-from PIL import Image
-from cv2 import imread, imwrite
-import cv2
-
-arquivo = open('arquivo.txt', 'r')
-ct = arquivo.read()
-aa = ct.split('\n')
-aa = aa[:-1]
-aa = aa[1:len(aa)]
-arquivo.close()
-
-file_name = open('file_name.txt', 'w')
-file_name.write('Imagemoriginal;Imagemteste;shift' + '\n')
-def wind(windType):
-    if windType == 'soft':
-        l,w = 40,80 # soft tissue (radiant viewer) 40,68 (Nando)
-    else:
-        l,w = 300, 1500 #  bone (radiant viewer) 570,3200 (Nando)
-    return l,w
+import dicom
 
 def window(pix, w, l):
-    
+# image transform to better analyse specific anatomical features
+#
+# window(pix, w, l)
+# inputs:
+#   pix: original image (np.array)
+#   w: window width (int)
+#   l: window center (int)
+#
+# output:
+#   new: transformed image (np.array)
+#
+# 2017, Feb. 7
+#
     s, h = pix.shape
     a = l-(w/2.0)
     b = l+(w/2.0)
-    new = np.copy(pix)
+    new = np.empty(pix.shape)
     for i in range(s):
         for j in range(h):
             if pix[i,j]>b:
-                new[i,j] = (65536.0)
+                new[i,j] = 255
             elif pix[i,j]<a:
                 new[i,j] = 0
             else:
-                new[i,j] = ((pix[i,j] - a)/(b-a))*(65536.0)
+                new[i,j] = ((pix[i,j] - a)/(b-a))*255.0
     return new
+    
+# Function test
+#ds = dicom.read_file('9.dcm') # read a dicom file
+#pix = ds.pixel_array          # dicom pixels are stored in a variable
+'''
+# typical w,l values obtained from radiantviewer.com/dicom-viewer-manual.html/change_brightness_contrast.html
+windType = 'soft' # window type (bone or soft)
+if windType == 'soft':
+    l,w = 40,80 # soft tissue (radiant viewer) 40,68 (Nando)
+else:
+    l,w = 300, 1500 #  bone (radiant viewer) 570,3200 (Nando)
 
-windType = 'soft'
-l,w = wind(windType)
+# Presenting some data for verification
+print('=============== Verification data ===================')
+print('Minimum pixel value: ', pix.min() )
+print('Maximum pixel value: ', pix.max() )
+print('Window parameters (L,W): ', l, w )
+print('Lowest Window value: ', l-w/2.0 )
+print('Highest Window value: ', l+w/2.0 )
 
-for i in xrange(0,len(aa)):
-    line = aa[i].split(';')
-    image_pil = Image.open(line[1])
-    image = np.array(image_pil)
-    shift = float(line[2])
-    new_image = image-shift
-    win = ['soft','bone']
-    for j in win:
-        name = line[1].split('.')
-        l,w = wind(str(j))
-        image_win = window(new_image,w,l)
-        image_int = np.trunc(image_win)
-        image_int = image_int.astype('int32')
-        image_windowing = Image.fromarray(image_int)
-        image_windowing.save(str(name[0])+'_'+str(j)+'.png')
-        file_name.write(str(line[0])+';'+ str(name[0])+'_'+str(j)+'.png'+';'+str(shift)+'\n')
+#n = window(pix,w,l) # window function call
+
+# Presenting original image
+plt.figure(1)
+plt.imshow(pix, plt.cm.bone, vmin = pix.min(), vmax=pix.max())
+plt.title('Original image')
+
+# Presenting processed image
+plt.figure(2)
+plt.imshow(n, plt.cm.bone, vmin = 0, vmax=255)
+plt.title('Transformed image')
+
+plt.show()
+'''

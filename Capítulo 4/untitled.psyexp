@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.84.2">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="untitled" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="image">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(-0.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="$Imagemoriginal" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(0.3, 0)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="$Imagemteste" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="..\..\Users\luana\Documents\AQV\arquivo.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'Imagemteste': u'Test_0_10.jp2', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =10'}, {u'Imagemteste': u'Test_0_20.jp2', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_0_30.jp2', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_0_50.jp2', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_0_20.jpg', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_0_30.jpg', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_0_50.jpg', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_0_70.jpg', u'Imagemoriginal': u'Orig_0.png', u'qualidade': u'quality =70'}, {u'Imagemteste': u'Test_1_10.jp2', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =10'}, {u'Imagemteste': u'Test_1_20.jp2', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_1_30.jp2', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_1_50.jp2', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_1_20.jpg', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_1_30.jpg', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_1_50.jpg', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_1_70.jpg', u'Imagemoriginal': u'Orig_1.png', u'qualidade': u'quality =70'}, {u'Imagemteste': u'Test_2_10.jp2', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =10'}, {u'Imagemteste': u'Test_2_20.jp2', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_2_30.jp2', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_2_50.jp2', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_2_20.jpg', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_2_30.jpg', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_2_50.jpg', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_2_70.jpg', u'Imagemoriginal': u'Orig_2.png', u'qualidade': u'quality =70'}, {u'Imagemteste': u'Test_3_10.jp2', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =10'}, {u'Imagemteste': u'Test_3_20.jp2', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_3_30.jp2', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_3_50.jp2', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_3_20.jpg', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_3_30.jpg', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_3_50.jpg', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_3_70.jpg', u'Imagemoriginal': u'Orig_3.png', u'qualidade': u'quality =70'}, {u'Imagemteste': u'Test_4_10.jp2', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =10'}, {u'Imagemteste': u'Test_4_20.jp2', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_4_30.jp2', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_4_50.jp2', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_4_20.jpg', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =20'}, {u'Imagemteste': u'Test_4_30.jpg', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =30'}, {u'Imagemteste': u'Test_4_50.jpg', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =50'}, {u'Imagemteste': u'Test_4_70.jpg', u'Imagemoriginal': u'Orig_4.png', u'qualidade': u'quality =70'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>

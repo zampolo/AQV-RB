@@ -1,0 +1,1723 @@
+11.8875 	WARNING 	pygame audio lib was requested but not loaded: No module named pygame
+14.8521 	DATA 	Mouse: wheel shift=(0,-1), pos=(0,0)
+15.2482 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x19DD63D0>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.2482 	EXP 	window1: recordFrameIntervals = False
+15.4146 	EXP 	window1: recordFrameIntervals = True
+15.5984 	EXP 	window1: recordFrameIntervals = False
+16.0216 	EXP 	Created title = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='title', opacity=1.0, ori=0, pos=array([ 0. ,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'Avalia\xe7\xe3o de Qualidade Visual', units=u'norm', win=Window(...), wrapWidth=1)
+16.0376 	EXP 	Created question = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='question', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.0449 	EXP 	Created goon = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='goon', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Aperte qualquer tecla para continuar...', units=u'norm', win=Window(...), wrapWidth=1)
+16.0487 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+16.0512 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+16.0603 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+16.0659 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de refer\xeancia', units=u'norm', win=Window(...), wrapWidth=1)
+16.0723 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0. ,  0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Fase de aquecimento\n', units=u'norm', win=Window(...), wrapWidth=1)
+16.1723 	EXP 	Created rating_2 = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_2', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+16.1809 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.1832 	EXP 	Created image_ref = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_ref', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+16.1853 	EXP 	Created image_test = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_test', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+16.2238 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=1.2, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.24, tickHeight=-1, tickMarks=1.0, win=Window(...))
+16.2299 	EXP 	Created label_ref = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_ref', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Refer\xeancia', units=u'norm', win=Window(...), wrapWidth=10)
+16.2347 	EXP 	Created label_teste = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_teste', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+16.2494 	EXP 	rating_2: flipVert = False
+16.2494 	EXP 	rating_2: autoLog = True
+16.2494 	EXP 	rating: flipVert = False
+16.2494 	EXP 	rating: autoLog = True
+16.2494 	EXP 	title: autoDraw = True
+16.2494 	EXP 	question: autoDraw = True
+16.2494 	EXP 	goon: autoDraw = True
+17.0348 	DATA 	Mouse: Left button down, pos=(709,165)
+17.0456 	EXP 	Imported trial.xlsx as conditions, 3 conditions, 2 params
+17.0458 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+17.0460 	EXP 	New trial (rep=0, index=0): {u'Imagemteste': u'Test_3_50_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}
+17.0657 	EXP 	RatingScale rating_2: reset()
+17.1177 	EXP 	title: autoDraw = False
+17.1177 	EXP 	question: autoDraw = False
+17.1177 	EXP 	goon: autoDraw = False
+17.1177 	EXP 	image: image = u'Orig_3_bone.png'
+17.1177 	EXP 	image_2: image = u'Test_3_50_jpg_bone.png'
+17.1177 	EXP 	image: autoDraw = True
+17.1177 	EXP 	image_2: autoDraw = True
+17.1177 	EXP 	text: autoDraw = True
+17.1177 	EXP 	text_2: autoDraw = True
+17.1177 	EXP 	text_3: autoDraw = True
+17.1177 	EXP 	rating_2: autoDraw = True
+17.1528 	DATA 	Mouse:  Left button up, pos=(709,165)
+18.8220 	DATA 	Mouse: Left button down, pos=(906,127)
+18.9047 	DATA 	Mouse:  Left button up, pos=(906,127)
+19.4902 	DATA 	Mouse: Left button down, pos=(774,37)
+19.4918 	DATA 	RatingScale rating_2: (mouse response) rating=Diagnóstico diferente
+19.4918 	DATA 	RatingScale rating_2: rating RT=2.426
+19.4918 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Mesmo diagn\xf3stico', 0.035), (u'Diagn\xf3stico diferente', 1.757), (u'Diagn\xf3stico diferente', 2.426)]
+19.5067 	EXP 	New trial (rep=0, index=1): {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+19.5244 	EXP 	RatingScale rating_2: reset()
+19.5389 	EXP 	image: autoDraw = False
+19.5389 	EXP 	image_2: autoDraw = False
+19.5389 	EXP 	text: autoDraw = False
+19.5389 	EXP 	text_2: autoDraw = False
+19.5389 	EXP 	text_3: autoDraw = False
+19.5389 	EXP 	rating_2: autoDraw = False
+19.5389 	EXP 	image: image = u'Orig_9_soft.png'
+19.5389 	EXP 	image_2: image = u'Test_9_70_jpg_soft.png'
+19.5389 	EXP 	image: autoDraw = True
+19.5389 	EXP 	image_2: autoDraw = True
+19.5389 	EXP 	text: autoDraw = True
+19.5389 	EXP 	text_2: autoDraw = True
+19.5389 	EXP 	text_3: autoDraw = True
+19.5389 	EXP 	rating_2: autoDraw = True
+19.6060 	DATA 	Mouse:  Left button up, pos=(774,37)
+20.3909 	DATA 	Mouse: Left button down, pos=(527,107)
+20.5077 	DATA 	Mouse:  Left button up, pos=(527,107)
+21.1924 	DATA 	Mouse: Left button down, pos=(687,24)
+21.1938 	DATA 	RatingScale rating_2: (mouse response) rating=Mesmo diagnóstico
+21.1938 	DATA 	RatingScale rating_2: rating RT=1.669
+21.1938 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Mesmo diagn\xf3stico', 0.867), (u'Mesmo diagn\xf3stico', 1.669)]
+21.2096 	EXP 	New trial (rep=0, index=2): {u'Imagemteste': u'Test_0_10_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+21.2257 	EXP 	RatingScale rating_2: reset()
+21.2421 	EXP 	image: autoDraw = False
+21.2421 	EXP 	image_2: autoDraw = False
+21.2421 	EXP 	text: autoDraw = False
+21.2421 	EXP 	text_2: autoDraw = False
+21.2421 	EXP 	text_3: autoDraw = False
+21.2421 	EXP 	rating_2: autoDraw = False
+21.2421 	EXP 	image: image = u'Orig_0_bone.png'
+21.2421 	EXP 	image_2: image = u'Test_0_10_jp2_bone.png'
+21.2421 	EXP 	image: autoDraw = True
+21.2421 	EXP 	image_2: autoDraw = True
+21.2421 	EXP 	text: autoDraw = True
+21.2421 	EXP 	text_2: autoDraw = True
+21.2421 	EXP 	text_3: autoDraw = True
+21.2421 	EXP 	rating_2: autoDraw = True
+21.3259 	DATA 	Mouse:  Left button up, pos=(687,24)
+21.8770 	DATA 	Mouse: Left button down, pos=(944,115)
+21.9938 	DATA 	Mouse:  Left button up, pos=(944,115)
+26.6359 	DATA 	Mouse: Left button down, pos=(511,127)
+26.7861 	DATA 	Mouse:  Left button up, pos=(511,127)
+27.6713 	DATA 	Mouse: Left button down, pos=(645,24)
+27.6727 	DATA 	RatingScale rating_2: (mouse response) rating=Mesmo diagnóstico
+27.6727 	DATA 	RatingScale rating_2: rating RT=6.447
+27.6727 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Diagn\xf3stico diferente', 0.652), (u'Mesmo diagn\xf3stico', 5.411), (u'Mesmo diagn\xf3stico', 6.447)]
+27.7209 	EXP 	image: autoDraw = False
+27.7209 	EXP 	image_2: autoDraw = False
+27.7209 	EXP 	text: autoDraw = False
+27.7209 	EXP 	text_2: autoDraw = False
+27.7209 	EXP 	text_3: autoDraw = False
+27.7209 	EXP 	rating_2: autoDraw = False
+27.7209 	EXP 	text_4: autoDraw = True
+27.7713 	DATA 	Mouse:  Left button up, pos=(645,24)
+28.4394 	DATA 	Mouse: Left button down, pos=(638,260)
+28.4587 	EXP 	Imported arquivo (1).xlsx as conditions, 180 conditions, 2 params
+28.4594 	EXP 	Created sequence: random, trialTypes=180, nReps=1, seed=None
+28.4597 	EXP 	New trial (rep=0, index=0): {u'Imagemteste': u'Orig_4_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}
+28.4792 	EXP 	RatingScale rating: reset()
+28.4890 	EXP 	text_4: autoDraw = False
+28.4890 	EXP 	image_ref: image = u'Orig_4_soft.png'
+28.4890 	EXP 	image_test: image = u'Orig_4_soft.png'
+28.4890 	EXP 	image_ref: autoDraw = True
+28.4890 	EXP 	image_test: autoDraw = True
+28.4890 	EXP 	rating: autoDraw = True
+28.4890 	EXP 	label_ref: autoDraw = True
+28.4890 	EXP 	label_teste: autoDraw = True
+28.5394 	DATA 	Mouse:  Left button up, pos=(638,260)
+30.1927 	DATA 	Mouse: Left button down, pos=(289,118)
+30.3596 	DATA 	Mouse:  Left button up, pos=(289,118)
+31.4783 	DATA 	Mouse: Left button down, pos=(379,1)
+31.6285 	DATA 	Mouse:  Left button up, pos=(379,1)
+32.8327 	DATA 	Mouse: Left button down, pos=(1127,1)
+32.9811 	DATA 	Mouse:  Left button up, pos=(1127,1)
+33.8497 	DATA 	Mouse: Left button down, pos=(1152,145)
+33.9662 	DATA 	Mouse:  Left button up, pos=(1152,145)
+35.0350 	DATA 	Mouse: Left button down, pos=(296,125)
+35.1853 	DATA 	Mouse:  Left button up, pos=(297,125)
+36.0203 	DATA 	Mouse: Left button down, pos=(1088,134)
+36.1370 	DATA 	Mouse:  Left button up, pos=(1088,134)
+37.4228 	DATA 	Keypress: escape
+2.7044 	WARNING 	pygame audio lib was requested but not loaded: No module named pygame
+5.0212 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x19D5A3D0>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0212 	EXP 	window1: recordFrameIntervals = False
+5.1876 	EXP 	window1: recordFrameIntervals = True
+5.3713 	EXP 	window1: recordFrameIntervals = False
+5.5067 	EXP 	Created title = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='title', opacity=1.0, ori=0, pos=array([ 0. ,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'Avalia\xe7\xe3o de Qualidade Visual', units=u'norm', win=Window(...), wrapWidth=1)
+5.5230 	EXP 	Created question = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='question', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.5309 	EXP 	Created goon = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='goon', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Aperte qualquer tecla para continuar...', units=u'norm', win=Window(...), wrapWidth=1)
+5.5340 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+5.5361 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+5.5455 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+5.5517 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de refer\xeancia', units=u'norm', win=Window(...), wrapWidth=1)
+5.5574 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0. ,  0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Fase de aquecimento\n', units=u'norm', win=Window(...), wrapWidth=1)
+5.5913 	EXP 	Created rating_2 = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_2', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+5.5998 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.6021 	EXP 	Created image_ref = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_ref', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+5.6043 	EXP 	Created image_test = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_test', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+5.6198 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=-1, tickMarks=1.0, win=Window(...))
+5.6255 	EXP 	Created label_ref = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_ref', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Refer\xeancia', units=u'norm', win=Window(...), wrapWidth=10)
+5.6289 	EXP 	Created label_teste = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_teste', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+5.6383 	EXP 	rating_2: flipVert = False
+5.6383 	EXP 	rating_2: autoLog = True
+5.6383 	EXP 	rating: flipVert = False
+5.6383 	EXP 	rating: autoLog = True
+5.6383 	EXP 	title: autoDraw = True
+5.6383 	EXP 	question: autoDraw = True
+5.6383 	EXP 	goon: autoDraw = True
+6.9579 	DATA 	Keypress: space
+6.9696 	EXP 	Imported trial.xlsx as conditions, 3 conditions, 2 params
+6.9699 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+6.9701 	EXP 	New trial (rep=0, index=0): {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+6.9904 	EXP 	RatingScale rating_2: reset()
+7.0247 	EXP 	title: autoDraw = False
+7.0247 	EXP 	question: autoDraw = False
+7.0247 	EXP 	goon: autoDraw = False
+7.0247 	EXP 	image: image = u'Orig_9_soft.png'
+7.0247 	EXP 	image_2: image = u'Test_9_70_jpg_soft.png'
+7.0247 	EXP 	image: autoDraw = True
+7.0247 	EXP 	image_2: autoDraw = True
+7.0247 	EXP 	text: autoDraw = True
+7.0247 	EXP 	text_2: autoDraw = True
+7.0247 	EXP 	text_3: autoDraw = True
+7.0247 	EXP 	rating_2: autoDraw = True
+8.1267 	DATA 	Mouse: Left button down, pos=(910,119)
+8.2268 	DATA 	Mouse:  Left button up, pos=(910,119)
+8.5298 	DATA 	Mouse: Left button down, pos=(777,39)
+8.5455 	DATA 	RatingScale rating_2: (mouse response) rating=Diagnóstico diferente
+8.5456 	DATA 	RatingScale rating_2: rating RT=1.555
+8.5456 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Diagn\xf3stico diferente', 1.136), (u'Diagn\xf3stico diferente', 1.555)]
+8.5617 	EXP 	New trial (rep=0, index=1): {u'Imagemteste': u'Test_3_50_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}
+8.5780 	EXP 	RatingScale rating_2: reset()
+8.5939 	EXP 	image: autoDraw = False
+8.5939 	EXP 	image_2: autoDraw = False
+8.5939 	EXP 	text: autoDraw = False
+8.5939 	EXP 	text_2: autoDraw = False
+8.5939 	EXP 	text_3: autoDraw = False
+8.5939 	EXP 	rating_2: autoDraw = False
+8.5939 	EXP 	image: image = u'Orig_3_bone.png'
+8.5939 	EXP 	image_2: image = u'Test_3_50_jpg_bone.png'
+8.5939 	EXP 	image: autoDraw = True
+8.5939 	EXP 	image_2: autoDraw = True
+8.5939 	EXP 	text: autoDraw = True
+8.5939 	EXP 	text_2: autoDraw = True
+8.5939 	EXP 	text_3: autoDraw = True
+8.5939 	EXP 	rating_2: autoDraw = True
+8.6614 	DATA 	Mouse:  Left button up, pos=(777,39)
+9.1118 	DATA 	Mouse: Left button down, pos=(893,118)
+9.1954 	DATA 	Mouse:  Left button up, pos=(893,118)
+9.5461 	DATA 	Mouse: Left button down, pos=(804,45)
+9.5476 	DATA 	RatingScale rating_2: (mouse response) rating=Diagnóstico diferente
+9.5476 	DATA 	RatingScale rating_2: rating RT=0.969
+9.5476 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Diagn\xf3stico diferente', 0.534), (u'Diagn\xf3stico diferente', 0.969)]
+9.5635 	EXP 	New trial (rep=0, index=2): {u'Imagemteste': u'Test_0_10_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+9.5811 	EXP 	RatingScale rating_2: reset()
+9.5958 	EXP 	image: autoDraw = False
+9.5958 	EXP 	image_2: autoDraw = False
+9.5958 	EXP 	text: autoDraw = False
+9.5958 	EXP 	text_2: autoDraw = False
+9.5958 	EXP 	text_3: autoDraw = False
+9.5958 	EXP 	rating_2: autoDraw = False
+9.5958 	EXP 	image: image = u'Orig_0_bone.png'
+9.5958 	EXP 	image_2: image = u'Test_0_10_jp2_bone.png'
+9.5958 	EXP 	image: autoDraw = True
+9.5958 	EXP 	image_2: autoDraw = True
+9.5958 	EXP 	text: autoDraw = True
+9.5958 	EXP 	text_2: autoDraw = True
+9.5958 	EXP 	text_3: autoDraw = True
+9.5958 	EXP 	rating_2: autoDraw = True
+9.6802 	DATA 	Mouse:  Left button up, pos=(804,44)
+10.1640 	DATA 	Mouse: Left button down, pos=(919,131)
+10.2823 	DATA 	Mouse:  Left button up, pos=(919,131)
+11.2660 	DATA 	Mouse: Left button down, pos=(563,85)
+11.4018 	DATA 	Mouse:  Left button up, pos=(563,85)
+11.9176 	DATA 	Mouse: Left button down, pos=(519,114)
+12.0507 	DATA 	Mouse:  Left button up, pos=(519,114)
+12.4184 	DATA 	Mouse: Left button down, pos=(725,22)
+12.4198 	DATA 	RatingScale rating_2: (mouse response) rating=Mesmo diagnóstico
+12.4199 	DATA 	RatingScale rating_2: rating RT=2.837
+12.4199 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Diagn\xf3stico diferente', 0.582), (u'Mesmo diagn\xf3stico', 2.336), (u'Mesmo diagn\xf3stico', 2.837)]
+12.4679 	EXP 	image: autoDraw = False
+12.4679 	EXP 	image_2: autoDraw = False
+12.4679 	EXP 	text: autoDraw = False
+12.4679 	EXP 	text_2: autoDraw = False
+12.4679 	EXP 	text_3: autoDraw = False
+12.4679 	EXP 	rating_2: autoDraw = False
+12.4679 	EXP 	text_4: autoDraw = True
+12.5359 	DATA 	Mouse:  Left button up, pos=(725,22)
+13.0026 	DATA 	Mouse: Left button down, pos=(772,154)
+13.0224 	EXP 	Imported arquivo (1).xlsx as conditions, 180 conditions, 2 params
+13.0230 	EXP 	Created sequence: random, trialTypes=180, nReps=1, seed=None
+13.0232 	EXP 	New trial (rep=0, index=0): {u'Imagemteste': u'Test_6_70_jpg_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}
+13.0442 	EXP 	RatingScale rating: reset()
+13.0523 	EXP 	text_4: autoDraw = False
+13.0523 	EXP 	image_ref: image = u'Orig_6_bone.png'
+13.0523 	EXP 	image_test: image = u'Test_6_70_jpg_bone.png'
+13.0523 	EXP 	image_ref: autoDraw = True
+13.0523 	EXP 	image_test: autoDraw = True
+13.0523 	EXP 	rating: autoDraw = True
+13.0523 	EXP 	label_ref: autoDraw = True
+13.0523 	EXP 	label_teste: autoDraw = True
+13.1362 	DATA 	Mouse:  Left button up, pos=(772,154)
+13.9546 	DATA 	Mouse: Left button down, pos=(908,106)
+14.0713 	DATA 	Mouse:  Left button up, pos=(908,106)
+14.3887 	DATA 	Mouse: Left button down, pos=(794,30)
+14.3902 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+14.3902 	DATA 	RatingScale rating: rating RT=1.346
+14.3902 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.911), (u'Diagn\xf3stico Diferente', 1.346)]
+14.4066 	EXP 	New trial (rep=0, index=1): {u'Imagemteste': u'Orig_8_soft.png', u'Imagemoriginal': u'Orig_8_soft.png'}
+14.4235 	EXP 	RatingScale rating: reset()
+14.4383 	EXP 	image_ref: autoDraw = False
+14.4383 	EXP 	image_test: autoDraw = False
+14.4383 	EXP 	rating: autoDraw = False
+14.4383 	EXP 	label_ref: autoDraw = False
+14.4383 	EXP 	label_teste: autoDraw = False
+14.4383 	EXP 	image_ref: image = u'Orig_8_soft.png'
+14.4383 	EXP 	image_test: image = u'Orig_8_soft.png'
+14.4383 	EXP 	image_ref: autoDraw = True
+14.4383 	EXP 	image_test: autoDraw = True
+14.4383 	EXP 	rating: autoDraw = True
+14.4383 	EXP 	label_ref: autoDraw = True
+14.4383 	EXP 	label_teste: autoDraw = True
+14.4887 	DATA 	Mouse:  Left button up, pos=(794,30)
+15.0402 	DATA 	Mouse: Left button down, pos=(526,105)
+15.1900 	DATA 	Mouse:  Left button up, pos=(526,105)
+15.5410 	DATA 	Mouse: Left button down, pos=(656,35)
+15.5425 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+15.5425 	DATA 	RatingScale rating: rating RT=1.119
+15.5425 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 0.617), (u'Mesmo Diagn\xf3stico', 1.119)]
+15.5585 	EXP 	New trial (rep=0, index=2): {u'Imagemteste': u'Test_8_70_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}
+15.5780 	EXP 	RatingScale rating: reset()
+15.5905 	EXP 	image_ref: autoDraw = False
+15.5905 	EXP 	image_test: autoDraw = False
+15.5905 	EXP 	rating: autoDraw = False
+15.5905 	EXP 	label_ref: autoDraw = False
+15.5905 	EXP 	label_teste: autoDraw = False
+15.5905 	EXP 	image_ref: image = u'Orig_8_bone.png'
+15.5905 	EXP 	image_test: image = u'Test_8_70_jpg_bone.png'
+15.5905 	EXP 	image_ref: autoDraw = True
+15.5905 	EXP 	image_test: autoDraw = True
+15.5905 	EXP 	rating: autoDraw = True
+15.5905 	EXP 	label_ref: autoDraw = True
+15.5905 	EXP 	label_teste: autoDraw = True
+15.6581 	DATA 	Mouse:  Left button up, pos=(657,34)
+16.1754 	DATA 	Mouse: Left button down, pos=(890,111)
+16.2921 	DATA 	Mouse:  Left button up, pos=(890,111)
+16.6762 	DATA 	Mouse: Left button down, pos=(771,34)
+16.6776 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+16.6776 	DATA 	RatingScale rating: rating RT=1.099
+16.6776 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.598), (u'Diagn\xf3stico Diferente', 1.099)]
+16.6936 	EXP 	New trial (rep=0, index=3): {u'Imagemteste': u'Orig_3_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}
+16.7097 	EXP 	RatingScale rating: reset()
+16.7259 	EXP 	image_ref: autoDraw = False
+16.7259 	EXP 	image_test: autoDraw = False
+16.7259 	EXP 	rating: autoDraw = False
+16.7259 	EXP 	label_ref: autoDraw = False
+16.7259 	EXP 	label_teste: autoDraw = False
+16.7259 	EXP 	image_ref: image = u'Orig_3_bone.png'
+16.7259 	EXP 	image_test: image = u'Orig_3_bone.png'
+16.7259 	EXP 	image_ref: autoDraw = True
+16.7259 	EXP 	image_test: autoDraw = True
+16.7259 	EXP 	rating: autoDraw = True
+16.7259 	EXP 	label_ref: autoDraw = True
+16.7259 	EXP 	label_teste: autoDraw = True
+16.7939 	DATA 	Mouse:  Left button up, pos=(771,34)
+17.2440 	DATA 	Mouse: Left button down, pos=(891,96)
+17.3781 	DATA 	Mouse:  Left button up, pos=(892,96)
+18.0122 	DATA 	Mouse: Left button down, pos=(925,118)
+18.1304 	DATA 	Mouse:  Left button up, pos=(925,118)
+18.4796 	DATA 	Mouse: Left button down, pos=(806,46)
+18.4810 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+18.4810 	DATA 	RatingScale rating: rating RT=1.771
+18.4810 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.303), (u'Diagn\xf3stico Diferente', 1.771)]
+18.4969 	EXP 	New trial (rep=0, index=4): {u'Imagemteste': u'Test_7_20_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}
+18.5180 	EXP 	RatingScale rating: reset()
+18.5293 	EXP 	image_ref: autoDraw = False
+18.5293 	EXP 	image_test: autoDraw = False
+18.5293 	EXP 	rating: autoDraw = False
+18.5293 	EXP 	label_ref: autoDraw = False
+18.5293 	EXP 	label_teste: autoDraw = False
+18.5293 	EXP 	image_ref: image = u'Orig_7_soft.png'
+18.5293 	EXP 	image_test: image = u'Test_7_20_jp2_soft.png'
+18.5293 	EXP 	image_ref: autoDraw = True
+18.5293 	EXP 	image_test: autoDraw = True
+18.5293 	EXP 	rating: autoDraw = True
+18.5293 	EXP 	label_ref: autoDraw = True
+18.5293 	EXP 	label_teste: autoDraw = True
+18.6132 	DATA 	Mouse:  Left button up, pos=(806,46)
+19.4982 	DATA 	Mouse: Left button down, pos=(927,117)
+19.6338 	DATA 	Mouse:  Left button up, pos=(927,117)
+27.5634 	DATA 	Mouse: Left button down, pos=(716,26)
+27.5653 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+27.5653 	DATA 	RatingScale rating: rating RT=9.047
+27.5653 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.981), (u'Diagn\xf3stico Diferente', 9.047)]
+27.5807 	EXP 	New trial (rep=0, index=5): {u'Imagemteste': u'Test_6_20_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}
+27.6006 	EXP 	RatingScale rating: reset()
+27.6130 	EXP 	image_ref: autoDraw = False
+27.6130 	EXP 	image_test: autoDraw = False
+27.6130 	EXP 	rating: autoDraw = False
+27.6130 	EXP 	label_ref: autoDraw = False
+27.6130 	EXP 	label_teste: autoDraw = False
+27.6130 	EXP 	image_ref: image = u'Orig_6_bone.png'
+27.6130 	EXP 	image_test: image = u'Test_6_20_jp2_bone.png'
+27.6130 	EXP 	image_ref: autoDraw = True
+27.6130 	EXP 	image_test: autoDraw = True
+27.6130 	EXP 	rating: autoDraw = True
+27.6130 	EXP 	label_ref: autoDraw = True
+27.6130 	EXP 	label_teste: autoDraw = True
+27.7974 	DATA 	Mouse:  Left button up, pos=(716,26)
+66.8872 	DATA 	Mouse: Left button down, pos=(915,105)
+67.0206 	DATA 	Mouse:  Left button up, pos=(915,105)
+67.5553 	DATA 	Mouse: Left button down, pos=(788,30)
+67.5578 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+67.5578 	DATA 	RatingScale rating: rating RT=39.957
+67.5578 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 39.287), (u'Diagn\xf3stico Diferente', 39.957)]
+67.5726 	EXP 	New trial (rep=0, index=6): {u'Imagemteste': u'Test_5_10_jp2_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}
+67.5917 	EXP 	RatingScale rating: reset()
+67.6048 	EXP 	image_ref: autoDraw = False
+67.6048 	EXP 	image_test: autoDraw = False
+67.6048 	EXP 	rating: autoDraw = False
+67.6048 	EXP 	label_ref: autoDraw = False
+67.6048 	EXP 	label_teste: autoDraw = False
+67.6048 	EXP 	image_ref: image = u'Orig_5_soft.png'
+67.6048 	EXP 	image_test: image = u'Test_5_10_jp2_soft.png'
+67.6048 	EXP 	image_ref: autoDraw = True
+67.6048 	EXP 	image_test: autoDraw = True
+67.6048 	EXP 	rating: autoDraw = True
+67.6048 	EXP 	label_ref: autoDraw = True
+67.6048 	EXP 	label_teste: autoDraw = True
+67.6720 	DATA 	Mouse:  Left button up, pos=(785,29)
+69.6256 	DATA 	Mouse: Left button down, pos=(934,137)
+69.7091 	DATA 	Mouse:  Left button up, pos=(934,137)
+70.2268 	DATA 	Mouse: Left button down, pos=(715,12)
+70.2284 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+70.2284 	DATA 	RatingScale rating: rating RT=2.636
+70.2284 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 2.034), (u'Diagn\xf3stico Diferente', 2.636)]
+70.2440 	EXP 	New trial (rep=0, index=7): {u'Imagemteste': u'Test_9_50_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+70.2629 	EXP 	RatingScale rating: reset()
+70.2765 	EXP 	image_ref: autoDraw = False
+70.2765 	EXP 	image_test: autoDraw = False
+70.2765 	EXP 	rating: autoDraw = False
+70.2765 	EXP 	label_ref: autoDraw = False
+70.2765 	EXP 	label_teste: autoDraw = False
+70.2765 	EXP 	image_ref: image = u'Orig_9_soft.png'
+70.2765 	EXP 	image_test: image = u'Test_9_50_jp2_soft.png'
+70.2765 	EXP 	image_ref: autoDraw = True
+70.2765 	EXP 	image_test: autoDraw = True
+70.2765 	EXP 	rating: autoDraw = True
+70.2765 	EXP 	label_ref: autoDraw = True
+70.2765 	EXP 	label_teste: autoDraw = True
+70.3437 	DATA 	Mouse:  Left button up, pos=(715,11)
+79.5778 	DATA 	Mouse: Left button down, pos=(943,145)
+79.7279 	DATA 	Mouse:  Left button up, pos=(943,145)
+81.5481 	DATA 	Mouse: Left button down, pos=(479,111)
+81.6498 	DATA 	Mouse:  Left button up, pos=(485,110)
+82.1493 	DATA 	Mouse: Left button down, pos=(667,40)
+82.1507 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+82.1507 	DATA 	RatingScale rating: rating RT=11.887
+82.1507 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 9.315), (u'Mesmo Diagn\xf3stico', 11.286), (u'Mesmo Diagn\xf3stico', 11.887)]
+82.1665 	EXP 	New trial (rep=0, index=8): {u'Imagemteste': u'Test_6_70_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}
+82.1844 	EXP 	RatingScale rating: reset()
+82.1989 	EXP 	image_ref: autoDraw = False
+82.1989 	EXP 	image_test: autoDraw = False
+82.1989 	EXP 	rating: autoDraw = False
+82.1989 	EXP 	label_ref: autoDraw = False
+82.1989 	EXP 	label_teste: autoDraw = False
+82.1989 	EXP 	image_ref: image = u'Orig_6_soft.png'
+82.1989 	EXP 	image_test: image = u'Test_6_70_jpg_soft.png'
+82.1989 	EXP 	image_ref: autoDraw = True
+82.1989 	EXP 	image_test: autoDraw = True
+82.1989 	EXP 	rating: autoDraw = True
+82.1989 	EXP 	label_ref: autoDraw = True
+82.1989 	EXP 	label_teste: autoDraw = True
+82.2499 	DATA 	Mouse:  Left button up, pos=(667,38)
+83.7189 	DATA 	Mouse: Left button down, pos=(547,105)
+83.8193 	DATA 	Mouse:  Left button up, pos=(547,105)
+84.2531 	DATA 	Mouse: Left button down, pos=(646,28)
+84.2546 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+84.2546 	DATA 	RatingScale rating: rating RT=2.070
+84.2546 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.535), (u'Mesmo Diagn\xf3stico', 2.07)]
+84.2705 	EXP 	New trial (rep=0, index=9): {u'Imagemteste': u'Test_9_10_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}
+84.2907 	EXP 	RatingScale rating: reset()
+84.3028 	EXP 	image_ref: autoDraw = False
+84.3028 	EXP 	image_test: autoDraw = False
+84.3028 	EXP 	rating: autoDraw = False
+84.3028 	EXP 	label_ref: autoDraw = False
+84.3028 	EXP 	label_teste: autoDraw = False
+84.3028 	EXP 	image_ref: image = u'Orig_9_bone.png'
+84.3028 	EXP 	image_test: image = u'Test_9_10_jp2_bone.png'
+84.3028 	EXP 	image_ref: autoDraw = True
+84.3028 	EXP 	image_test: autoDraw = True
+84.3028 	EXP 	rating: autoDraw = True
+84.3028 	EXP 	label_ref: autoDraw = True
+84.3028 	EXP 	label_teste: autoDraw = True
+84.3544 	DATA 	Mouse:  Left button up, pos=(648,24)
+93.4538 	DATA 	Mouse: Left button down, pos=(939,132)
+93.5539 	DATA 	Mouse:  Left button up, pos=(939,132)
+94.0216 	DATA 	Mouse: Left button down, pos=(762,4)
+94.1065 	DATA 	Mouse:  Left button up, pos=(762,4)
+94.6394 	DATA 	Mouse: Left button down, pos=(789,51)
+94.6411 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+94.6411 	DATA 	RatingScale rating: rating RT=10.350
+94.6411 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 9.164), (u'Diagn\xf3stico Diferente', 10.35)]
+94.6567 	EXP 	New trial (rep=0, index=10): {u'Imagemteste': u'Test_1_50_jp2_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}
+94.6731 	EXP 	RatingScale rating: reset()
+94.6891 	EXP 	image_ref: autoDraw = False
+94.6891 	EXP 	image_test: autoDraw = False
+94.6891 	EXP 	rating: autoDraw = False
+94.6891 	EXP 	label_ref: autoDraw = False
+94.6891 	EXP 	label_teste: autoDraw = False
+94.6891 	EXP 	image_ref: image = u'Orig_1_bone.png'
+94.6891 	EXP 	image_test: image = u'Test_1_50_jp2_bone.png'
+94.6891 	EXP 	image_ref: autoDraw = True
+94.6891 	EXP 	image_test: autoDraw = True
+94.6891 	EXP 	rating: autoDraw = True
+94.6891 	EXP 	label_ref: autoDraw = True
+94.6891 	EXP 	label_teste: autoDraw = True
+94.7895 	DATA 	Mouse:  Left button up, pos=(789,51)
+96.3759 	DATA 	Mouse: Left button down, pos=(516,112)
+96.4927 	DATA 	Mouse:  Left button up, pos=(516,112)
+97.6616 	DATA 	Mouse: Left button down, pos=(718,24)
+97.6632 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+97.6632 	DATA 	RatingScale rating: rating RT=2.990
+97.6633 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.703), (u'Mesmo Diagn\xf3stico', 2.99)]
+97.6789 	EXP 	New trial (rep=0, index=11): {u'Imagemteste': u'Test_0_20_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+97.6953 	EXP 	RatingScale rating: reset()
+97.7113 	EXP 	image_ref: autoDraw = False
+97.7113 	EXP 	image_test: autoDraw = False
+97.7113 	EXP 	rating: autoDraw = False
+97.7113 	EXP 	label_ref: autoDraw = False
+97.7113 	EXP 	label_teste: autoDraw = False
+97.7113 	EXP 	image_ref: image = u'Orig_0_bone.png'
+97.7113 	EXP 	image_test: image = u'Test_0_20_jp2_bone.png'
+97.7113 	EXP 	image_ref: autoDraw = True
+97.7113 	EXP 	image_test: autoDraw = True
+97.7113 	EXP 	rating: autoDraw = True
+97.7113 	EXP 	label_ref: autoDraw = True
+97.7113 	EXP 	label_teste: autoDraw = True
+97.8285 	DATA 	Mouse:  Left button up, pos=(718,24)
+98.6802 	DATA 	Mouse: Left button down, pos=(517,96)
+98.7803 	DATA 	Mouse:  Left button up, pos=(517,96)
+107.1962 	DATA 	Mouse: Left button down, pos=(961,136)
+107.3146 	DATA 	Mouse:  Left button up, pos=(961,136)
+111.2874 	DATA 	Mouse: Left button down, pos=(757,41)
+111.2889 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+111.2889 	DATA 	RatingScale rating: rating RT=13.593
+111.2889 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 9.502), (u'Diagn\xf3stico Diferente', 13.593)]
+111.3045 	EXP 	New trial (rep=0, index=12): {u'Imagemteste': u'Orig_2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+111.3214 	EXP 	RatingScale rating: reset()
+111.3369 	EXP 	image_ref: autoDraw = False
+111.3369 	EXP 	image_test: autoDraw = False
+111.3369 	EXP 	rating: autoDraw = False
+111.3369 	EXP 	label_ref: autoDraw = False
+111.3369 	EXP 	label_teste: autoDraw = False
+111.3369 	EXP 	image_ref: image = u'Orig_2_soft.png'
+111.3369 	EXP 	image_test: image = u'Orig_2_soft.png'
+111.3369 	EXP 	image_ref: autoDraw = True
+111.3369 	EXP 	image_test: autoDraw = True
+111.3369 	EXP 	rating: autoDraw = True
+111.3369 	EXP 	label_ref: autoDraw = True
+111.3369 	EXP 	label_teste: autoDraw = True
+111.4045 	DATA 	Mouse:  Left button up, pos=(756,40)
+113.0421 	DATA 	Mouse: Left button down, pos=(523,105)
+113.1740 	DATA 	Mouse:  Left button up, pos=(523,105)
+121.2231 	DATA 	Mouse: Left button down, pos=(673,30)
+121.2248 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+121.2248 	DATA 	RatingScale rating: rating RT=9.903
+121.2248 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.736), (u'Mesmo Diagn\xf3stico', 9.903)]
+121.2398 	EXP 	New trial (rep=0, index=13): {u'Imagemteste': u'Test_5_20_jp2_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}
+121.2573 	EXP 	RatingScale rating: reset()
+121.2723 	EXP 	image_ref: autoDraw = False
+121.2723 	EXP 	image_test: autoDraw = False
+121.2723 	EXP 	rating: autoDraw = False
+121.2723 	EXP 	label_ref: autoDraw = False
+121.2723 	EXP 	label_teste: autoDraw = False
+121.2723 	EXP 	image_ref: image = u'Orig_5_bone.png'
+121.2723 	EXP 	image_test: image = u'Test_5_20_jp2_bone.png'
+121.2723 	EXP 	image_ref: autoDraw = True
+121.2723 	EXP 	image_test: autoDraw = True
+121.2723 	EXP 	rating: autoDraw = True
+121.2723 	EXP 	label_ref: autoDraw = True
+121.2723 	EXP 	label_teste: autoDraw = True
+121.3226 	DATA 	Mouse:  Left button up, pos=(673,30)
+123.0102 	DATA 	Mouse: Left button down, pos=(559,110)
+123.1430 	DATA 	Mouse:  Left button up, pos=(560,109)
+123.7105 	DATA 	Mouse: Left button down, pos=(689,22)
+123.7119 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+123.7119 	DATA 	RatingScale rating: rating RT=2.454
+123.7119 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.753), (u'Mesmo Diagn\xf3stico', 2.454)]
+123.7278 	EXP 	New trial (rep=0, index=14): {u'Imagemteste': u'Test_9_50_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}
+123.7483 	EXP 	RatingScale rating: reset()
+123.7603 	EXP 	image_ref: autoDraw = False
+123.7603 	EXP 	image_test: autoDraw = False
+123.7603 	EXP 	rating: autoDraw = False
+123.7603 	EXP 	label_ref: autoDraw = False
+123.7603 	EXP 	label_teste: autoDraw = False
+123.7603 	EXP 	image_ref: image = u'Orig_9_bone.png'
+123.7603 	EXP 	image_test: image = u'Test_9_50_jp2_bone.png'
+123.7603 	EXP 	image_ref: autoDraw = True
+123.7603 	EXP 	image_test: autoDraw = True
+123.7603 	EXP 	rating: autoDraw = True
+123.7603 	EXP 	label_ref: autoDraw = True
+123.7603 	EXP 	label_teste: autoDraw = True
+123.8273 	DATA 	Mouse:  Left button up, pos=(689,22)
+129.6219 	DATA 	Mouse: Left button down, pos=(494,123)
+129.7052 	DATA 	Mouse:  Left button up, pos=(494,123)
+130.1731 	DATA 	Mouse: Left button down, pos=(627,44)
+130.1745 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+130.1745 	DATA 	RatingScale rating: rating RT=6.426
+130.1746 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 5.874), (u'Mesmo Diagn\xf3stico', 6.426)]
+130.1900 	EXP 	New trial (rep=0, index=15): {u'Imagemteste': u'Test_9_70_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}
+130.2099 	EXP 	RatingScale rating: reset()
+130.2224 	EXP 	image_ref: autoDraw = False
+130.2224 	EXP 	image_test: autoDraw = False
+130.2224 	EXP 	rating: autoDraw = False
+130.2224 	EXP 	label_ref: autoDraw = False
+130.2224 	EXP 	label_teste: autoDraw = False
+130.2224 	EXP 	image_ref: image = u'Orig_9_bone.png'
+130.2224 	EXP 	image_test: image = u'Test_9_70_jpg_bone.png'
+130.2224 	EXP 	image_ref: autoDraw = True
+130.2224 	EXP 	image_test: autoDraw = True
+130.2224 	EXP 	rating: autoDraw = True
+130.2224 	EXP 	label_ref: autoDraw = True
+130.2224 	EXP 	label_teste: autoDraw = True
+130.2563 	DATA 	Mouse:  Left button up, pos=(629,39)
+133.8963 	DATA 	Mouse: Left button down, pos=(484,96)
+133.9967 	DATA 	Mouse:  Left button up, pos=(485,96)
+134.5977 	DATA 	Mouse: Left button down, pos=(508,128)
+134.6980 	DATA 	Mouse:  Left button up, pos=(508,128)
+135.2322 	DATA 	Mouse: Left button down, pos=(670,38)
+135.2337 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+135.2337 	DATA 	RatingScale rating: rating RT=5.023
+135.2337 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 4.388), (u'Mesmo Diagn\xf3stico', 5.023)]
+135.2496 	EXP 	New trial (rep=0, index=16): {u'Imagemteste': u'Test_9_20_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+135.2673 	EXP 	RatingScale rating: reset()
+135.2819 	EXP 	image_ref: autoDraw = False
+135.2819 	EXP 	image_test: autoDraw = False
+135.2819 	EXP 	rating: autoDraw = False
+135.2819 	EXP 	label_ref: autoDraw = False
+135.2819 	EXP 	label_teste: autoDraw = False
+135.2819 	EXP 	image_ref: image = u'Orig_9_soft.png'
+135.2819 	EXP 	image_test: image = u'Test_9_20_jpg_soft.png'
+135.2819 	EXP 	image_ref: autoDraw = True
+135.2819 	EXP 	image_test: autoDraw = True
+135.2819 	EXP 	rating: autoDraw = True
+135.2819 	EXP 	label_ref: autoDraw = True
+135.2819 	EXP 	label_teste: autoDraw = True
+135.3160 	DATA 	Mouse:  Left button up, pos=(671,39)
+138.6387 	DATA 	Mouse: Left button down, pos=(912,121)
+138.7888 	DATA 	Mouse:  Left button up, pos=(912,121)
+140.2584 	DATA 	Mouse: Left button down, pos=(771,9)
+140.2597 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+140.2598 	DATA 	RatingScale rating: rating RT=4.992
+140.2598 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 3.372), (u'Diagn\xf3stico Diferente', 4.992)]
+140.2756 	EXP 	New trial (rep=0, index=17): {u'Imagemteste': u'Test_5_30_jpg_bone.png', u'Imagemoriginal': u'Orig_5_bone.png'}
+140.2923 	EXP 	RatingScale rating: reset()
+140.3081 	EXP 	image_ref: autoDraw = False
+140.3081 	EXP 	image_test: autoDraw = False
+140.3081 	EXP 	rating: autoDraw = False
+140.3081 	EXP 	label_ref: autoDraw = False
+140.3081 	EXP 	label_teste: autoDraw = False
+140.3081 	EXP 	image_ref: image = u'Orig_5_bone.png'
+140.3081 	EXP 	image_test: image = u'Test_5_30_jpg_bone.png'
+140.3081 	EXP 	image_ref: autoDraw = True
+140.3081 	EXP 	image_test: autoDraw = True
+140.3081 	EXP 	rating: autoDraw = True
+140.3081 	EXP 	label_ref: autoDraw = True
+140.3081 	EXP 	label_teste: autoDraw = True
+140.4586 	DATA 	Mouse:  Left button up, pos=(771,9)
+143.9154 	DATA 	Mouse: Left button down, pos=(914,116)
+144.1489 	DATA 	Mouse:  Left button up, pos=(914,116)
+145.2344 	DATA 	Mouse: Left button down, pos=(663,32)
+145.2358 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+145.2358 	DATA 	RatingScale rating: rating RT=4.943
+145.2358 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 3.624), (u'Diagn\xf3stico Diferente', 4.943)]
+145.2516 	EXP 	New trial (rep=0, index=18): {u'Imagemteste': u'Test_2_30_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+145.2682 	EXP 	RatingScale rating: reset()
+145.2840 	EXP 	image_ref: autoDraw = False
+145.2840 	EXP 	image_test: autoDraw = False
+145.2840 	EXP 	rating: autoDraw = False
+145.2840 	EXP 	label_ref: autoDraw = False
+145.2840 	EXP 	label_teste: autoDraw = False
+145.2840 	EXP 	image_ref: image = u'Orig_2_soft.png'
+145.2840 	EXP 	image_test: image = u'Test_2_30_jpg_soft.png'
+145.2840 	EXP 	image_ref: autoDraw = True
+145.2840 	EXP 	image_test: autoDraw = True
+145.2840 	EXP 	rating: autoDraw = True
+145.2840 	EXP 	label_ref: autoDraw = True
+145.2840 	EXP 	label_teste: autoDraw = True
+145.3679 	DATA 	Mouse:  Left button up, pos=(663,32)
+152.8663 	DATA 	Mouse: Left button down, pos=(463,122)
+152.9822 	DATA 	Mouse:  Left button up, pos=(468,124)
+153.2327 	DATA 	Mouse: Left button down, pos=(514,117)
+153.3328 	DATA 	Mouse:  Left button up, pos=(514,117)
+153.9841 	DATA 	Mouse: Left button down, pos=(673,19)
+153.9856 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+153.9856 	DATA 	RatingScale rating: rating RT=8.717
+153.9856 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 7.965), (u'Mesmo Diagn\xf3stico', 8.717)]
+154.0014 	EXP 	New trial (rep=0, index=19): {u'Imagemteste': u'Test_0_50_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+154.0167 	EXP 	RatingScale rating: reset()
+154.0338 	EXP 	image_ref: autoDraw = False
+154.0338 	EXP 	image_test: autoDraw = False
+154.0338 	EXP 	rating: autoDraw = False
+154.0338 	EXP 	label_ref: autoDraw = False
+154.0338 	EXP 	label_teste: autoDraw = False
+154.0338 	EXP 	image_ref: image = u'Orig_0_bone.png'
+154.0338 	EXP 	image_test: image = u'Test_0_50_jp2_bone.png'
+154.0338 	EXP 	image_ref: autoDraw = True
+154.0338 	EXP 	image_test: autoDraw = True
+154.0338 	EXP 	rating: autoDraw = True
+154.0338 	EXP 	label_ref: autoDraw = True
+154.0338 	EXP 	label_teste: autoDraw = True
+154.1342 	DATA 	Mouse:  Left button up, pos=(673,19)
+155.8376 	DATA 	Mouse: Left button down, pos=(512,118)
+156.0379 	DATA 	Mouse:  Left button up, pos=(512,118)
+156.5062 	DATA 	Mouse: Left button down, pos=(709,25)
+156.5077 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+156.5077 	DATA 	RatingScale rating: rating RT=2.491
+156.5077 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.822), (u'Mesmo Diagn\xf3stico', 2.491)]
+156.5228 	EXP 	New trial (rep=0, index=20): {u'Imagemteste': u'Test_9_50_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+156.5398 	EXP 	RatingScale rating: reset()
+156.5552 	EXP 	image_ref: autoDraw = False
+156.5552 	EXP 	image_test: autoDraw = False
+156.5552 	EXP 	rating: autoDraw = False
+156.5552 	EXP 	label_ref: autoDraw = False
+156.5552 	EXP 	label_teste: autoDraw = False
+156.5552 	EXP 	image_ref: image = u'Orig_9_soft.png'
+156.5552 	EXP 	image_test: image = u'Test_9_50_jpg_soft.png'
+156.5552 	EXP 	image_ref: autoDraw = True
+156.5552 	EXP 	image_test: autoDraw = True
+156.5552 	EXP 	rating: autoDraw = True
+156.5552 	EXP 	label_ref: autoDraw = True
+156.5552 	EXP 	label_teste: autoDraw = True
+156.6557 	DATA 	Mouse:  Left button up, pos=(712,25)
+158.7598 	DATA 	Mouse: Left button down, pos=(554,115)
+158.9266 	DATA 	Mouse:  Left button up, pos=(554,115)
+159.7950 	DATA 	Mouse: Left button down, pos=(707,10)
+159.7965 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+159.7965 	DATA 	RatingScale rating: rating RT=3.256
+159.7965 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 2.22), (u'Mesmo Diagn\xf3stico', 3.256)]
+159.8123 	EXP 	New trial (rep=0, index=21): {u'Imagemteste': u'Test_6_50_jpg_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}
+159.8302 	EXP 	RatingScale rating: reset()
+159.8447 	EXP 	image_ref: autoDraw = False
+159.8447 	EXP 	image_test: autoDraw = False
+159.8447 	EXP 	rating: autoDraw = False
+159.8447 	EXP 	label_ref: autoDraw = False
+159.8447 	EXP 	label_teste: autoDraw = False
+159.8447 	EXP 	image_ref: image = u'Orig_6_soft.png'
+159.8447 	EXP 	image_test: image = u'Test_6_50_jpg_soft.png'
+159.8447 	EXP 	image_ref: autoDraw = True
+159.8447 	EXP 	image_test: autoDraw = True
+159.8447 	EXP 	rating: autoDraw = True
+159.8447 	EXP 	label_ref: autoDraw = True
+159.8447 	EXP 	label_teste: autoDraw = True
+159.9620 	DATA 	Mouse:  Left button up, pos=(707,10)
+161.0141 	DATA 	Mouse: Left button down, pos=(558,86)
+161.1808 	DATA 	Mouse:  Left button up, pos=(558,86)
+161.5315 	DATA 	Mouse: Left button down, pos=(545,115)
+161.6826 	DATA 	Mouse:  Left button up, pos=(545,115)
+161.9992 	DATA 	Mouse: Left button down, pos=(646,44)
+162.0006 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+162.0006 	DATA 	RatingScale rating: rating RT=2.170
+162.0007 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.702), (u'Mesmo Diagn\xf3stico', 2.17)]
+162.0168 	EXP 	New trial (rep=0, index=22): {u'Imagemteste': u'Test_2_50_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}
+162.0320 	EXP 	RatingScale rating: reset()
+162.0488 	EXP 	image_ref: autoDraw = False
+162.0488 	EXP 	image_test: autoDraw = False
+162.0488 	EXP 	rating: autoDraw = False
+162.0488 	EXP 	label_ref: autoDraw = False
+162.0488 	EXP 	label_teste: autoDraw = False
+162.0488 	EXP 	image_ref: image = u'Orig_2_bone.png'
+162.0488 	EXP 	image_test: image = u'Test_2_50_jp2_bone.png'
+162.0488 	EXP 	image_ref: autoDraw = True
+162.0488 	EXP 	image_test: autoDraw = True
+162.0488 	EXP 	rating: autoDraw = True
+162.0488 	EXP 	label_ref: autoDraw = True
+162.0488 	EXP 	label_teste: autoDraw = True
+162.1827 	DATA 	Mouse:  Left button up, pos=(650,41)
+163.1513 	DATA 	Mouse: Left button down, pos=(553,118)
+163.2849 	DATA 	Mouse:  Left button up, pos=(553,118)
+163.5863 	DATA 	Mouse: Left button down, pos=(682,36)
+163.5877 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+163.5877 	DATA 	RatingScale rating: rating RT=1.555
+163.5877 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.12), (u'Mesmo Diagn\xf3stico', 1.555)]
+163.6029 	EXP 	New trial (rep=0, index=23): {u'Imagemteste': u'Test_4_30_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}
+163.6196 	EXP 	RatingScale rating: reset()
+163.6351 	EXP 	image_ref: autoDraw = False
+163.6351 	EXP 	image_test: autoDraw = False
+163.6351 	EXP 	rating: autoDraw = False
+163.6351 	EXP 	label_ref: autoDraw = False
+163.6351 	EXP 	label_teste: autoDraw = False
+163.6351 	EXP 	image_ref: image = u'Orig_4_bone.png'
+163.6351 	EXP 	image_test: image = u'Test_4_30_jp2_bone.png'
+163.6351 	EXP 	image_ref: autoDraw = True
+163.6351 	EXP 	image_test: autoDraw = True
+163.6351 	EXP 	rating: autoDraw = True
+163.6351 	EXP 	label_ref: autoDraw = True
+163.6351 	EXP 	label_teste: autoDraw = True
+163.7358 	DATA 	Mouse:  Left button up, pos=(683,33)
+164.5540 	DATA 	Mouse: Left button down, pos=(561,101)
+164.7384 	DATA 	Mouse:  Left button up, pos=(561,101)
+165.2218 	DATA 	Mouse: Left button down, pos=(509,136)
+165.3721 	DATA 	Mouse:  Left button up, pos=(509,136)
+165.7896 	DATA 	Mouse: Left button down, pos=(693,30)
+165.7913 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+165.7913 	DATA 	RatingScale rating: rating RT=2.171
+165.7913 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.603), (u'Mesmo Diagn\xf3stico', 2.171)]
+165.8070 	EXP 	New trial (rep=0, index=24): {u'Imagemteste': u'Test_2_50_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+165.8261 	EXP 	RatingScale rating: reset()
+165.8393 	EXP 	image_ref: autoDraw = False
+165.8393 	EXP 	image_test: autoDraw = False
+165.8393 	EXP 	rating: autoDraw = False
+165.8393 	EXP 	label_ref: autoDraw = False
+165.8393 	EXP 	label_teste: autoDraw = False
+165.8393 	EXP 	image_ref: image = u'Orig_2_soft.png'
+165.8393 	EXP 	image_test: image = u'Test_2_50_jp2_soft.png'
+165.8393 	EXP 	image_ref: autoDraw = True
+165.8393 	EXP 	image_test: autoDraw = True
+165.8393 	EXP 	rating: autoDraw = True
+165.8393 	EXP 	label_ref: autoDraw = True
+165.8393 	EXP 	label_teste: autoDraw = True
+165.9067 	DATA 	Mouse:  Left button up, pos=(691,28)
+171.8009 	DATA 	Mouse: Left button down, pos=(465,75)
+171.9848 	DATA 	Mouse:  Left button up, pos=(471,79)
+172.1857 	DATA 	Mouse: Left button down, pos=(545,121)
+172.3518 	DATA 	Mouse:  Left button up, pos=(545,121)
+172.8531 	DATA 	Mouse: Left button down, pos=(795,54)
+172.8546 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+172.8546 	DATA 	RatingScale rating: rating RT=7.028
+172.8546 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 6.359), (u'Mesmo Diagn\xf3stico', 7.028)]
+172.8703 	EXP 	New trial (rep=0, index=25): {u'Imagemteste': u'Test_1_20_jpg_bone.png', u'Imagemoriginal': u'Orig_1_bone.png'}
+172.8866 	EXP 	RatingScale rating: reset()
+172.9026 	EXP 	image_ref: autoDraw = False
+172.9026 	EXP 	image_test: autoDraw = False
+172.9026 	EXP 	rating: autoDraw = False
+172.9026 	EXP 	label_ref: autoDraw = False
+172.9026 	EXP 	label_teste: autoDraw = False
+172.9026 	EXP 	image_ref: image = u'Orig_1_bone.png'
+172.9026 	EXP 	image_test: image = u'Test_1_20_jpg_bone.png'
+172.9026 	EXP 	image_ref: autoDraw = True
+172.9026 	EXP 	image_test: autoDraw = True
+172.9026 	EXP 	rating: autoDraw = True
+172.9026 	EXP 	label_ref: autoDraw = True
+172.9026 	EXP 	label_teste: autoDraw = True
+173.0031 	DATA 	Mouse:  Left button up, pos=(795,54)
+174.2725 	DATA 	Mouse: Left button down, pos=(535,116)
+174.4226 	DATA 	Mouse:  Left button up, pos=(535,116)
+175.9086 	DATA 	Mouse: Left button down, pos=(699,24)
+175.9100 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+175.9100 	DATA 	RatingScale rating: rating RT=3.023
+175.9100 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.386), (u'Mesmo Diagn\xf3stico', 3.023)]
+175.9259 	EXP 	New trial (rep=0, index=26): {u'Imagemteste': u'Test_3_20_jpg_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}
+175.9414 	EXP 	RatingScale rating: reset()
+175.9583 	EXP 	image_ref: autoDraw = False
+175.9583 	EXP 	image_test: autoDraw = False
+175.9583 	EXP 	rating: autoDraw = False
+175.9583 	EXP 	label_ref: autoDraw = False
+175.9583 	EXP 	label_teste: autoDraw = False
+175.9583 	EXP 	image_ref: image = u'Orig_3_bone.png'
+175.9583 	EXP 	image_test: image = u'Test_3_20_jpg_bone.png'
+175.9583 	EXP 	image_ref: autoDraw = True
+175.9583 	EXP 	image_test: autoDraw = True
+175.9583 	EXP 	rating: autoDraw = True
+175.9583 	EXP 	label_ref: autoDraw = True
+175.9583 	EXP 	label_teste: autoDraw = True
+176.1757 	DATA 	Mouse:  Left button up, pos=(699,24)
+185.3784 	DATA 	Mouse: Left button down, pos=(924,94)
+185.5600 	DATA 	Mouse:  Left button up, pos=(924,94)
+186.0944 	DATA 	Mouse: Left button down, pos=(937,119)
+186.2448 	DATA 	Mouse:  Left button up, pos=(937,119)
+197.1150 	DATA 	Mouse: Left button down, pos=(665,28)
+197.1165 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+197.1165 	DATA 	RatingScale rating: rating RT=21.175
+197.1165 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 10.154), (u'Diagn\xf3stico Diferente', 21.175)]
+197.1325 	EXP 	New trial (rep=0, index=27): {u'Imagemteste': u'Test_7_70_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}
+197.1523 	EXP 	RatingScale rating: reset()
+197.1648 	EXP 	image_ref: autoDraw = False
+197.1648 	EXP 	image_test: autoDraw = False
+197.1648 	EXP 	rating: autoDraw = False
+197.1648 	EXP 	label_ref: autoDraw = False
+197.1648 	EXP 	label_teste: autoDraw = False
+197.1648 	EXP 	image_ref: image = u'Orig_7_bone.png'
+197.1648 	EXP 	image_test: image = u'Test_7_70_jpg_bone.png'
+197.1648 	EXP 	image_ref: autoDraw = True
+197.1648 	EXP 	image_test: autoDraw = True
+197.1648 	EXP 	rating: autoDraw = True
+197.1648 	EXP 	label_ref: autoDraw = True
+197.1648 	EXP 	label_teste: autoDraw = True
+197.2319 	DATA 	Mouse:  Left button up, pos=(665,28)
+209.7722 	DATA 	Mouse: Left button down, pos=(509,101)
+209.9391 	DATA 	Mouse:  Left button up, pos=(510,103)
+211.2097 	DATA 	Mouse: Left button down, pos=(727,14)
+211.2098 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+211.2098 	DATA 	RatingScale rating: rating RT=14.057
+211.2099 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 12.637), (u'Mesmo Diagn\xf3stico', 14.057)]
+211.2255 	EXP 	New trial (rep=0, index=28): {u'Imagemteste': u'Test_4_10_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}
+211.2447 	EXP 	RatingScale rating: reset()
+211.2579 	EXP 	image_ref: autoDraw = False
+211.2579 	EXP 	image_test: autoDraw = False
+211.2579 	EXP 	rating: autoDraw = False
+211.2579 	EXP 	label_ref: autoDraw = False
+211.2579 	EXP 	label_teste: autoDraw = False
+211.2579 	EXP 	image_ref: image = u'Orig_4_soft.png'
+211.2579 	EXP 	image_test: image = u'Test_4_10_jp2_soft.png'
+211.2579 	EXP 	image_ref: autoDraw = True
+211.2579 	EXP 	image_test: autoDraw = True
+211.2579 	EXP 	rating: autoDraw = True
+211.2579 	EXP 	label_ref: autoDraw = True
+211.2579 	EXP 	label_teste: autoDraw = True
+211.4586 	DATA 	Mouse:  Left button up, pos=(727,14)
+213.0618 	DATA 	Mouse: Left button down, pos=(587,112)
+213.2286 	DATA 	Mouse:  Left button up, pos=(587,112)
+214.1804 	DATA 	Mouse: Left button down, pos=(885,108)
+214.2823 	DATA 	Mouse:  Left button up, pos=(888,104)
+214.5812 	DATA 	Mouse: Left button down, pos=(798,44)
+214.5826 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+214.5826 	DATA 	RatingScale rating: rating RT=3.338
+214.5826 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.818), (u'Diagn\xf3stico Diferente', 2.937), (u'Diagn\xf3stico Diferente', 3.338)]
+214.5985 	EXP 	New trial (rep=0, index=29): {u'Imagemteste': u'Test_1_30_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+214.6162 	EXP 	RatingScale rating: reset()
+214.6309 	EXP 	image_ref: autoDraw = False
+214.6309 	EXP 	image_test: autoDraw = False
+214.6309 	EXP 	rating: autoDraw = False
+214.6309 	EXP 	label_ref: autoDraw = False
+214.6309 	EXP 	label_teste: autoDraw = False
+214.6309 	EXP 	image_ref: image = u'Orig_1_soft.png'
+214.6309 	EXP 	image_test: image = u'Test_1_30_jp2_soft.png'
+214.6309 	EXP 	image_ref: autoDraw = True
+214.6309 	EXP 	image_test: autoDraw = True
+214.6309 	EXP 	rating: autoDraw = True
+214.6309 	EXP 	label_ref: autoDraw = True
+214.6309 	EXP 	label_teste: autoDraw = True
+214.6983 	DATA 	Mouse:  Left button up, pos=(798,44)
+218.9059 	DATA 	Mouse: Left button down, pos=(956,113)
+219.0743 	DATA 	Mouse:  Left button up, pos=(956,113)
+222.0285 	DATA 	Mouse: Left button down, pos=(776,23)
+222.0300 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+222.0300 	DATA 	RatingScale rating: rating RT=7.413
+222.0300 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 4.29), (u'Diagn\xf3stico Diferente', 7.413)]
+222.0458 	EXP 	New trial (rep=0, index=30): {u'Imagemteste': u'Test_1_10_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+222.0639 	EXP 	RatingScale rating: reset()
+222.0782 	EXP 	image_ref: autoDraw = False
+222.0782 	EXP 	image_test: autoDraw = False
+222.0782 	EXP 	rating: autoDraw = False
+222.0782 	EXP 	label_ref: autoDraw = False
+222.0782 	EXP 	label_teste: autoDraw = False
+222.0782 	EXP 	image_ref: image = u'Orig_1_soft.png'
+222.0782 	EXP 	image_test: image = u'Test_1_10_jp2_soft.png'
+222.0782 	EXP 	image_ref: autoDraw = True
+222.0782 	EXP 	image_test: autoDraw = True
+222.0782 	EXP 	rating: autoDraw = True
+222.0782 	EXP 	label_ref: autoDraw = True
+222.0782 	EXP 	label_teste: autoDraw = True
+222.1287 	DATA 	Mouse:  Left button up, pos=(776,23)
+222.7300 	DATA 	Mouse: Left button down, pos=(984,104)
+222.8300 	DATA 	Mouse:  Left button up, pos=(984,104)
+223.2642 	DATA 	Mouse: Left button down, pos=(918,125)
+223.3479 	DATA 	Mouse:  Left button up, pos=(920,122)
+223.7151 	DATA 	Mouse: Left button down, pos=(790,31)
+223.7166 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+223.7167 	DATA 	RatingScale rating: rating RT=1.652
+223.7167 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.201), (u'Diagn\xf3stico Diferente', 1.652)]
+223.7323 	EXP 	New trial (rep=0, index=31): {u'Imagemteste': u'Test_2_50_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+223.7498 	EXP 	RatingScale rating: reset()
+223.7647 	EXP 	image_ref: autoDraw = False
+223.7647 	EXP 	image_test: autoDraw = False
+223.7647 	EXP 	rating: autoDraw = False
+223.7647 	EXP 	label_ref: autoDraw = False
+223.7647 	EXP 	label_teste: autoDraw = False
+223.7647 	EXP 	image_ref: image = u'Orig_2_soft.png'
+223.7647 	EXP 	image_test: image = u'Test_2_50_jpg_soft.png'
+223.7647 	EXP 	image_ref: autoDraw = True
+223.7647 	EXP 	image_test: autoDraw = True
+223.7647 	EXP 	rating: autoDraw = True
+223.7647 	EXP 	label_ref: autoDraw = True
+223.7647 	EXP 	label_teste: autoDraw = True
+223.8151 	DATA 	Mouse:  Left button up, pos=(790,31)
+225.0514 	DATA 	Mouse: Left button down, pos=(901,107)
+225.2030 	DATA 	Mouse:  Left button up, pos=(902,107)
+225.6186 	DATA 	Mouse: Left button down, pos=(815,32)
+225.6200 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+225.6200 	DATA 	RatingScale rating: rating RT=1.870
+225.6200 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.302), (u'Diagn\xf3stico Diferente', 1.87)]
+225.6359 	EXP 	New trial (rep=0, index=32): {u'Imagemteste': u'Test_7_30_jpg_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}
+225.6550 	EXP 	RatingScale rating: reset()
+225.6683 	EXP 	image_ref: autoDraw = False
+225.6683 	EXP 	image_test: autoDraw = False
+225.6683 	EXP 	rating: autoDraw = False
+225.6683 	EXP 	label_ref: autoDraw = False
+225.6683 	EXP 	label_teste: autoDraw = False
+225.6683 	EXP 	image_ref: image = u'Orig_7_bone.png'
+225.6683 	EXP 	image_test: image = u'Test_7_30_jpg_bone.png'
+225.6683 	EXP 	image_ref: autoDraw = True
+225.6683 	EXP 	image_test: autoDraw = True
+225.6683 	EXP 	rating: autoDraw = True
+225.6683 	EXP 	label_ref: autoDraw = True
+225.6683 	EXP 	label_teste: autoDraw = True
+225.7525 	DATA 	Mouse:  Left button up, pos=(814,31)
+226.4201 	DATA 	Mouse: Left button down, pos=(929,122)
+226.5541 	DATA 	Mouse:  Left button up, pos=(929,122)
+227.0214 	DATA 	Mouse: Left button down, pos=(812,13)
+227.0228 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+227.0229 	DATA 	RatingScale rating: rating RT=1.368
+227.0229 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.766), (u'Diagn\xf3stico Diferente', 1.368)]
+227.0386 	EXP 	New trial (rep=0, index=33): {u'Imagemteste': u'Test_3_20_jp2_bone.png', u'Imagemoriginal': u'Orig_3_bone.png'}
+227.0557 	EXP 	RatingScale rating: reset()
+227.0710 	EXP 	image_ref: autoDraw = False
+227.0710 	EXP 	image_test: autoDraw = False
+227.0710 	EXP 	rating: autoDraw = False
+227.0710 	EXP 	label_ref: autoDraw = False
+227.0710 	EXP 	label_teste: autoDraw = False
+227.0710 	EXP 	image_ref: image = u'Orig_3_bone.png'
+227.0710 	EXP 	image_test: image = u'Test_3_20_jp2_bone.png'
+227.0710 	EXP 	image_ref: autoDraw = True
+227.0710 	EXP 	image_test: autoDraw = True
+227.0710 	EXP 	rating: autoDraw = True
+227.0710 	EXP 	label_ref: autoDraw = True
+227.0710 	EXP 	label_teste: autoDraw = True
+227.1715 	DATA 	Mouse:  Left button up, pos=(812,13)
+227.6892 	DATA 	Mouse: Left button down, pos=(937,108)
+227.8394 	DATA 	Mouse:  Left button up, pos=(937,108)
+228.2588 	DATA 	Mouse: Left button down, pos=(854,32)
+228.3739 	DATA 	Mouse:  Left button up, pos=(851,30)
+228.6077 	DATA 	Mouse: Left button down, pos=(818,26)
+228.6092 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+228.6092 	DATA 	RatingScale rating: rating RT=1.553
+228.6093 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.634), (u'Diagn\xf3stico Diferente', 1.553)]
+228.6249 	EXP 	New trial (rep=0, index=34): {u'Imagemteste': u'Test_8_20_jpg_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}
+228.6445 	EXP 	RatingScale rating: reset()
+228.6573 	EXP 	image_ref: autoDraw = False
+228.6573 	EXP 	image_test: autoDraw = False
+228.6573 	EXP 	rating: autoDraw = False
+228.6573 	EXP 	label_ref: autoDraw = False
+228.6573 	EXP 	label_teste: autoDraw = False
+228.6573 	EXP 	image_ref: image = u'Orig_8_bone.png'
+228.6573 	EXP 	image_test: image = u'Test_8_20_jpg_bone.png'
+228.6573 	EXP 	image_ref: autoDraw = True
+228.6573 	EXP 	image_test: autoDraw = True
+228.6573 	EXP 	rating: autoDraw = True
+228.6573 	EXP 	label_ref: autoDraw = True
+228.6573 	EXP 	label_teste: autoDraw = True
+228.7243 	DATA 	Mouse:  Left button up, pos=(818,26)
+229.4759 	DATA 	Mouse: Left button down, pos=(935,101)
+229.5936 	DATA 	Mouse:  Left button up, pos=(936,101)
+230.1104 	DATA 	Mouse: Left button down, pos=(940,116)
+230.2273 	DATA 	Mouse:  Left button up, pos=(939,113)
+230.5632 	DATA 	Mouse: Left button down, pos=(818,28)
+230.5648 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+230.5648 	DATA 	RatingScale rating: rating RT=1.920
+230.5648 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.466), (u'Diagn\xf3stico Diferente', 1.92)]
+230.5785 	EXP 	New trial (rep=0, index=35): {u'Imagemteste': u'Test_1_20_jp2_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+230.5968 	EXP 	RatingScale rating: reset()
+230.6109 	EXP 	image_ref: autoDraw = False
+230.6109 	EXP 	image_test: autoDraw = False
+230.6109 	EXP 	rating: autoDraw = False
+230.6109 	EXP 	label_ref: autoDraw = False
+230.6109 	EXP 	label_teste: autoDraw = False
+230.6109 	EXP 	image_ref: image = u'Orig_1_soft.png'
+230.6109 	EXP 	image_test: image = u'Test_1_20_jp2_soft.png'
+230.6109 	EXP 	image_ref: autoDraw = True
+230.6109 	EXP 	image_test: autoDraw = True
+230.6109 	EXP 	rating: autoDraw = True
+230.6109 	EXP 	label_ref: autoDraw = True
+230.6109 	EXP 	label_teste: autoDraw = True
+230.7117 	DATA 	Mouse:  Left button up, pos=(818,28)
+231.4964 	DATA 	Mouse: Left button down, pos=(921,130)
+231.6301 	DATA 	Mouse:  Left button up, pos=(923,130)
+232.0808 	DATA 	Mouse: Left button down, pos=(827,46)
+232.0822 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+232.0823 	DATA 	RatingScale rating: rating RT=1.485
+232.0823 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.9), (u'Diagn\xf3stico Diferente', 1.485)]
+232.0981 	EXP 	New trial (rep=0, index=36): {u'Imagemteste': u'Test_5_20_jpg_soft.png', u'Imagemoriginal': u'Orig_5_soft.png'}
+232.1159 	EXP 	RatingScale rating: reset()
+232.1305 	EXP 	image_ref: autoDraw = False
+232.1305 	EXP 	image_test: autoDraw = False
+232.1305 	EXP 	rating: autoDraw = False
+232.1305 	EXP 	label_ref: autoDraw = False
+232.1305 	EXP 	label_teste: autoDraw = False
+232.1305 	EXP 	image_ref: image = u'Orig_5_soft.png'
+232.1305 	EXP 	image_test: image = u'Test_5_20_jpg_soft.png'
+232.1305 	EXP 	image_ref: autoDraw = True
+232.1305 	EXP 	image_test: autoDraw = True
+232.1305 	EXP 	rating: autoDraw = True
+232.1305 	EXP 	label_ref: autoDraw = True
+232.1305 	EXP 	label_teste: autoDraw = True
+232.2644 	DATA 	Mouse:  Left button up, pos=(827,46)
+232.8489 	DATA 	Mouse: Left button down, pos=(905,120)
+233.0163 	DATA 	Mouse:  Left button up, pos=(908,120)
+233.4666 	DATA 	Mouse: Left button down, pos=(786,26)
+233.4682 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+233.4682 	DATA 	RatingScale rating: rating RT=1.352
+233.4682 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.733), (u'Diagn\xf3stico Diferente', 1.352)]
+233.4840 	EXP 	New trial (rep=0, index=37): {u'Imagemteste': u'Orig_7_bone.png', u'Imagemoriginal': u'Orig_7_bone.png'}
+233.5030 	EXP 	RatingScale rating: reset()
+233.5163 	EXP 	image_ref: autoDraw = False
+233.5163 	EXP 	image_test: autoDraw = False
+233.5163 	EXP 	rating: autoDraw = False
+233.5163 	EXP 	label_ref: autoDraw = False
+233.5163 	EXP 	label_teste: autoDraw = False
+233.5163 	EXP 	image_ref: image = u'Orig_7_bone.png'
+233.5163 	EXP 	image_test: image = u'Orig_7_bone.png'
+233.5163 	EXP 	image_ref: autoDraw = True
+233.5163 	EXP 	image_test: autoDraw = True
+233.5163 	EXP 	rating: autoDraw = True
+233.5163 	EXP 	label_ref: autoDraw = True
+233.5163 	EXP 	label_teste: autoDraw = True
+233.6502 	DATA 	Mouse:  Left button up, pos=(786,26)
+234.3517 	DATA 	Mouse: Left button down, pos=(896,130)
+234.5364 	DATA 	Mouse:  Left button up, pos=(901,130)
+235.0363 	DATA 	Mouse: Left button down, pos=(778,22)
+235.0378 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+235.0378 	DATA 	RatingScale rating: rating RT=1.534
+235.0378 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.849), (u'Diagn\xf3stico Diferente', 1.534)]
+235.0536 	EXP 	New trial (rep=0, index=38): {u'Imagemteste': u'Test_4_30_jpg_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}
+235.0709 	EXP 	RatingScale rating: reset()
+235.0860 	EXP 	image_ref: autoDraw = False
+235.0860 	EXP 	image_test: autoDraw = False
+235.0860 	EXP 	rating: autoDraw = False
+235.0860 	EXP 	label_ref: autoDraw = False
+235.0860 	EXP 	label_teste: autoDraw = False
+235.0860 	EXP 	image_ref: image = u'Orig_4_soft.png'
+235.0860 	EXP 	image_test: image = u'Test_4_30_jpg_soft.png'
+235.0860 	EXP 	image_ref: autoDraw = True
+235.0860 	EXP 	image_test: autoDraw = True
+235.0860 	EXP 	rating: autoDraw = True
+235.0860 	EXP 	label_ref: autoDraw = True
+235.0860 	EXP 	label_teste: autoDraw = True
+235.2032 	DATA 	Mouse:  Left button up, pos=(778,19)
+237.8749 	DATA 	Mouse: Left button down, pos=(907,131)
+238.0088 	DATA 	Mouse:  Left button up, pos=(909,125)
+238.3427 	DATA 	Mouse: Left button down, pos=(778,46)
+238.3441 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+238.3441 	DATA 	RatingScale rating: rating RT=3.273
+238.3441 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 2.804), (u'Diagn\xf3stico Diferente', 3.273)]
+238.3598 	EXP 	New trial (rep=0, index=39): {u'Imagemteste': u'Test_7_10_jp2_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}
+238.3812 	EXP 	RatingScale rating: reset()
+238.3922 	EXP 	image_ref: autoDraw = False
+238.3922 	EXP 	image_test: autoDraw = False
+238.3922 	EXP 	rating: autoDraw = False
+238.3922 	EXP 	label_ref: autoDraw = False
+238.3922 	EXP 	label_teste: autoDraw = False
+238.3922 	EXP 	image_ref: image = u'Orig_7_soft.png'
+238.3922 	EXP 	image_test: image = u'Test_7_10_jp2_soft.png'
+238.3922 	EXP 	image_ref: autoDraw = True
+238.3922 	EXP 	image_test: autoDraw = True
+238.3922 	EXP 	rating: autoDraw = True
+238.3922 	EXP 	label_ref: autoDraw = True
+238.3922 	EXP 	label_teste: autoDraw = True
+238.4428 	DATA 	Mouse:  Left button up, pos=(777,46)
+239.4281 	DATA 	Mouse: Left button down, pos=(894,112)
+239.5780 	DATA 	Mouse:  Left button up, pos=(894,111)
+239.9464 	DATA 	Mouse: Left button down, pos=(747,30)
+239.9479 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+239.9479 	DATA 	RatingScale rating: rating RT=1.566
+239.9479 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.047), (u'Diagn\xf3stico Diferente', 1.566)]
+239.9628 	EXP 	New trial (rep=0, index=40): {u'Imagemteste': u'Test_2_50_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}
+239.9780 	EXP 	RatingScale rating: reset()
+239.9952 	EXP 	image_ref: autoDraw = False
+239.9952 	EXP 	image_test: autoDraw = False
+239.9952 	EXP 	rating: autoDraw = False
+239.9952 	EXP 	label_ref: autoDraw = False
+239.9952 	EXP 	label_teste: autoDraw = False
+239.9952 	EXP 	image_ref: image = u'Orig_2_bone.png'
+239.9952 	EXP 	image_test: image = u'Test_2_50_jpg_bone.png'
+239.9952 	EXP 	image_ref: autoDraw = True
+239.9952 	EXP 	image_test: autoDraw = True
+239.9952 	EXP 	rating: autoDraw = True
+239.9952 	EXP 	label_ref: autoDraw = True
+239.9952 	EXP 	label_teste: autoDraw = True
+240.1298 	DATA 	Mouse:  Left button up, pos=(743,28)
+240.5634 	DATA 	Mouse: Left button down, pos=(924,110)
+240.7640 	DATA 	Mouse:  Left button up, pos=(925,108)
+241.0644 	DATA 	Mouse: Left button down, pos=(783,22)
+241.0662 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+241.0662 	DATA 	RatingScale rating: rating RT=1.088
+241.0662 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.586), (u'Diagn\xf3stico Diferente', 1.088)]
+241.0819 	EXP 	New trial (rep=0, index=41): {u'Imagemteste': u'Test_7_30_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}
+241.1010 	EXP 	RatingScale rating: reset()
+241.1140 	EXP 	image_ref: autoDraw = False
+241.1140 	EXP 	image_test: autoDraw = False
+241.1140 	EXP 	rating: autoDraw = False
+241.1140 	EXP 	label_ref: autoDraw = False
+241.1140 	EXP 	label_teste: autoDraw = False
+241.1140 	EXP 	image_ref: image = u'Orig_7_soft.png'
+241.1140 	EXP 	image_test: image = u'Test_7_30_jpg_soft.png'
+241.1140 	EXP 	image_ref: autoDraw = True
+241.1140 	EXP 	image_test: autoDraw = True
+241.1140 	EXP 	rating: autoDraw = True
+241.1140 	EXP 	label_ref: autoDraw = True
+241.1140 	EXP 	label_teste: autoDraw = True
+241.2646 	DATA 	Mouse:  Left button up, pos=(780,19)
+241.9329 	DATA 	Mouse: Left button down, pos=(508,130)
+242.0831 	DATA 	Mouse:  Left button up, pos=(508,130)
+242.8680 	DATA 	Mouse: Left button down, pos=(683,19)
+242.8695 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+242.8695 	DATA 	RatingScale rating: rating RT=1.768
+242.8696 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 0.832), (u'Mesmo Diagn\xf3stico', 1.768)]
+242.8849 	EXP 	New trial (rep=0, index=42): {u'Imagemteste': u'Test_1_70_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+242.9020 	EXP 	RatingScale rating: reset()
+242.9174 	EXP 	image_ref: autoDraw = False
+242.9174 	EXP 	image_test: autoDraw = False
+242.9174 	EXP 	rating: autoDraw = False
+242.9174 	EXP 	label_ref: autoDraw = False
+242.9174 	EXP 	label_teste: autoDraw = False
+242.9174 	EXP 	image_ref: image = u'Orig_1_soft.png'
+242.9174 	EXP 	image_test: image = u'Test_1_70_jpg_soft.png'
+242.9174 	EXP 	image_ref: autoDraw = True
+242.9174 	EXP 	image_test: autoDraw = True
+242.9174 	EXP 	rating: autoDraw = True
+242.9174 	EXP 	label_ref: autoDraw = True
+242.9174 	EXP 	label_teste: autoDraw = True
+243.0179 	DATA 	Mouse:  Left button up, pos=(681,19)
+246.5581 	DATA 	Mouse: Left button down, pos=(928,136)
+246.6757 	DATA 	Mouse:  Left button up, pos=(928,135)
+247.0258 	DATA 	Mouse: Left button down, pos=(731,5)
+247.1777 	DATA 	Mouse:  Left button up, pos=(731,5)
+247.5765 	DATA 	Mouse: Left button down, pos=(772,33)
+247.5780 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+247.5780 	DATA 	RatingScale rating: rating RT=4.676
+247.5780 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 3.657), (u'Diagn\xf3stico Diferente', 4.676)]
+247.5938 	EXP 	New trial (rep=0, index=43): {u'Imagemteste': u'Test_2_10_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}
+247.6112 	EXP 	RatingScale rating: reset()
+247.6263 	EXP 	image_ref: autoDraw = False
+247.6263 	EXP 	image_test: autoDraw = False
+247.6263 	EXP 	rating: autoDraw = False
+247.6263 	EXP 	label_ref: autoDraw = False
+247.6263 	EXP 	label_teste: autoDraw = False
+247.6263 	EXP 	image_ref: image = u'Orig_2_bone.png'
+247.6263 	EXP 	image_test: image = u'Test_2_10_jp2_bone.png'
+247.6263 	EXP 	image_ref: autoDraw = True
+247.6263 	EXP 	image_test: autoDraw = True
+247.6263 	EXP 	rating: autoDraw = True
+247.6263 	EXP 	label_ref: autoDraw = True
+247.6263 	EXP 	label_teste: autoDraw = True
+247.7434 	DATA 	Mouse:  Left button up, pos=(772,33)
+248.3459 	DATA 	Mouse: Left button down, pos=(910,132)
+248.5118 	DATA 	Mouse:  Left button up, pos=(910,123)
+248.8627 	DATA 	Mouse: Left button down, pos=(782,49)
+248.8641 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+248.8641 	DATA 	RatingScale rating: rating RT=1.253
+248.8642 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.75), (u'Diagn\xf3stico Diferente', 1.253)]
+248.8796 	EXP 	New trial (rep=0, index=44): {u'Imagemteste': u'Test_3_70_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}
+248.8971 	EXP 	RatingScale rating: reset()
+248.9120 	EXP 	image_ref: autoDraw = False
+248.9120 	EXP 	image_test: autoDraw = False
+248.9120 	EXP 	rating: autoDraw = False
+248.9120 	EXP 	label_ref: autoDraw = False
+248.9120 	EXP 	label_teste: autoDraw = False
+248.9120 	EXP 	image_ref: image = u'Orig_3_soft.png'
+248.9120 	EXP 	image_test: image = u'Test_3_70_jpg_soft.png'
+248.9120 	EXP 	image_ref: autoDraw = True
+248.9120 	EXP 	image_test: autoDraw = True
+248.9120 	EXP 	rating: autoDraw = True
+248.9120 	EXP 	label_ref: autoDraw = True
+248.9120 	EXP 	label_teste: autoDraw = True
+249.0125 	DATA 	Mouse:  Left button up, pos=(782,49)
+250.0813 	DATA 	Mouse: Left button down, pos=(886,105)
+250.2481 	DATA 	Mouse:  Left button up, pos=(886,105)
+250.6156 	DATA 	Mouse: Left button down, pos=(769,35)
+250.6169 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+250.6170 	DATA 	RatingScale rating: rating RT=1.720
+250.6170 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.185), (u'Diagn\xf3stico Diferente', 1.72)]
+250.6329 	EXP 	New trial (rep=0, index=45): {u'Imagemteste': u'Test_4_30_jp2_soft.png', u'Imagemoriginal': u'Orig_4_soft.png'}
+250.6519 	EXP 	RatingScale rating: reset()
+250.6653 	EXP 	image_ref: autoDraw = False
+250.6653 	EXP 	image_test: autoDraw = False
+250.6653 	EXP 	rating: autoDraw = False
+250.6653 	EXP 	label_ref: autoDraw = False
+250.6653 	EXP 	label_teste: autoDraw = False
+250.6653 	EXP 	image_ref: image = u'Orig_4_soft.png'
+250.6653 	EXP 	image_test: image = u'Test_4_30_jp2_soft.png'
+250.6653 	EXP 	image_ref: autoDraw = True
+250.6653 	EXP 	image_test: autoDraw = True
+250.6653 	EXP 	rating: autoDraw = True
+250.6653 	EXP 	label_ref: autoDraw = True
+250.6653 	EXP 	label_teste: autoDraw = True
+250.7491 	DATA 	Mouse:  Left button up, pos=(769,35)
+253.2206 	DATA 	Mouse: Left button down, pos=(886,112)
+253.3875 	DATA 	Mouse:  Left button up, pos=(889,106)
+253.6896 	DATA 	Mouse: Left button down, pos=(798,32)
+253.7059 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+253.7059 	DATA 	RatingScale rating: rating RT=3.054
+253.7059 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 2.569), (u'Diagn\xf3stico Diferente', 3.054)]
+253.7220 	EXP 	New trial (rep=0, index=46): {u'Imagemteste': u'Test_2_20_jp2_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+253.7409 	EXP 	RatingScale rating: reset()
+253.7544 	EXP 	image_ref: autoDraw = False
+253.7544 	EXP 	image_test: autoDraw = False
+253.7544 	EXP 	rating: autoDraw = False
+253.7544 	EXP 	label_ref: autoDraw = False
+253.7544 	EXP 	label_teste: autoDraw = False
+253.7544 	EXP 	image_ref: image = u'Orig_2_soft.png'
+253.7544 	EXP 	image_test: image = u'Test_2_20_jp2_soft.png'
+253.7544 	EXP 	image_ref: autoDraw = True
+253.7544 	EXP 	image_test: autoDraw = True
+253.7544 	EXP 	rating: autoDraw = True
+253.7544 	EXP 	label_ref: autoDraw = True
+253.7544 	EXP 	label_teste: autoDraw = True
+253.8381 	DATA 	Mouse:  Left button up, pos=(798,32)
+254.4728 	DATA 	Mouse: Left button down, pos=(920,106)
+254.5897 	DATA 	Mouse:  Left button up, pos=(920,106)
+254.9070 	DATA 	Mouse: Left button down, pos=(800,28)
+254.9086 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+254.9086 	DATA 	RatingScale rating: rating RT=1.167
+254.9086 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.732), (u'Diagn\xf3stico Diferente', 1.167)]
+254.9242 	EXP 	New trial (rep=0, index=47): {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+254.9415 	EXP 	RatingScale rating: reset()
+254.9567 	EXP 	image_ref: autoDraw = False
+254.9567 	EXP 	image_test: autoDraw = False
+254.9567 	EXP 	rating: autoDraw = False
+254.9567 	EXP 	label_ref: autoDraw = False
+254.9567 	EXP 	label_teste: autoDraw = False
+254.9567 	EXP 	image_ref: image = u'Orig_9_soft.png'
+254.9567 	EXP 	image_test: image = u'Test_9_70_jpg_soft.png'
+254.9567 	EXP 	image_ref: autoDraw = True
+254.9567 	EXP 	image_test: autoDraw = True
+254.9567 	EXP 	rating: autoDraw = True
+254.9567 	EXP 	label_ref: autoDraw = True
+254.9567 	EXP 	label_teste: autoDraw = True
+255.0417 	DATA 	Mouse:  Left button up, pos=(800,28)
+255.9422 	DATA 	Mouse: Left button down, pos=(894,80)
+256.0758 	DATA 	Mouse:  Left button up, pos=(894,80)
+256.4432 	DATA 	Mouse: Left button down, pos=(925,115)
+256.5626 	DATA 	Mouse:  Left button up, pos=(925,115)
+256.8610 	DATA 	Mouse: Left button down, pos=(819,40)
+256.8626 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+256.8627 	DATA 	RatingScale rating: rating RT=1.921
+256.8627 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.502), (u'Diagn\xf3stico Diferente', 1.921)]
+256.8780 	EXP 	New trial (rep=0, index=48): {u'Imagemteste': u'Test_0_70_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}
+256.8961 	EXP 	RatingScale rating: reset()
+256.9103 	EXP 	image_ref: autoDraw = False
+256.9103 	EXP 	image_test: autoDraw = False
+256.9103 	EXP 	rating: autoDraw = False
+256.9103 	EXP 	label_ref: autoDraw = False
+256.9103 	EXP 	label_teste: autoDraw = False
+256.9103 	EXP 	image_ref: image = u'Orig_0_soft.png'
+256.9103 	EXP 	image_test: image = u'Test_0_70_jpg_soft.png'
+256.9103 	EXP 	image_ref: autoDraw = True
+256.9103 	EXP 	image_test: autoDraw = True
+256.9103 	EXP 	rating: autoDraw = True
+256.9103 	EXP 	label_ref: autoDraw = True
+256.9103 	EXP 	label_teste: autoDraw = True
+257.0108 	DATA 	Mouse:  Left button up, pos=(816,38)
+257.5287 	DATA 	Mouse: Left button down, pos=(929,122)
+257.6455 	DATA 	Mouse:  Left button up, pos=(929,122)
+258.0129 	DATA 	Mouse: Left button down, pos=(795,16)
+258.0143 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+258.0143 	DATA 	RatingScale rating: rating RT=1.118
+258.0143 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.633), (u'Diagn\xf3stico Diferente', 1.118)]
+258.0300 	EXP 	New trial (rep=0, index=49): {u'Imagemteste': u'Test_0_10_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+258.0461 	EXP 	RatingScale rating: reset()
+258.0625 	EXP 	image_ref: autoDraw = False
+258.0625 	EXP 	image_test: autoDraw = False
+258.0625 	EXP 	rating: autoDraw = False
+258.0625 	EXP 	label_ref: autoDraw = False
+258.0625 	EXP 	label_teste: autoDraw = False
+258.0625 	EXP 	image_ref: image = u'Orig_0_bone.png'
+258.0625 	EXP 	image_test: image = u'Test_0_10_jp2_bone.png'
+258.0625 	EXP 	image_ref: autoDraw = True
+258.0625 	EXP 	image_test: autoDraw = True
+258.0625 	EXP 	rating: autoDraw = True
+258.0625 	EXP 	label_ref: autoDraw = True
+258.0625 	EXP 	label_teste: autoDraw = True
+258.1799 	DATA 	Mouse:  Left button up, pos=(795,16)
+259.1482 	DATA 	Mouse: Left button down, pos=(491,105)
+259.2987 	DATA 	Mouse:  Left button up, pos=(493,105)
+259.7160 	DATA 	Mouse: Left button down, pos=(700,18)
+259.7174 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+259.7174 	DATA 	RatingScale rating: rating RT=1.671
+259.7174 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 1.103), (u'Mesmo Diagn\xf3stico', 1.671)]
+259.7333 	EXP 	New trial (rep=0, index=50): {u'Imagemteste': u'Test_9_30_jpg_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}
+259.7524 	EXP 	RatingScale rating: reset()
+259.7657 	EXP 	image_ref: autoDraw = False
+259.7657 	EXP 	image_test: autoDraw = False
+259.7657 	EXP 	rating: autoDraw = False
+259.7657 	EXP 	label_ref: autoDraw = False
+259.7657 	EXP 	label_teste: autoDraw = False
+259.7657 	EXP 	image_ref: image = u'Orig_9_bone.png'
+259.7657 	EXP 	image_test: image = u'Test_9_30_jpg_bone.png'
+259.7657 	EXP 	image_ref: autoDraw = True
+259.7657 	EXP 	image_test: autoDraw = True
+259.7657 	EXP 	rating: autoDraw = True
+259.7657 	EXP 	label_ref: autoDraw = True
+259.7657 	EXP 	label_teste: autoDraw = True
+259.8495 	DATA 	Mouse:  Left button up, pos=(700,18)
+260.4173 	DATA 	Mouse: Left button down, pos=(820,91)
+260.5690 	DATA 	Mouse:  Left button up, pos=(825,88)
+261.0184 	DATA 	Mouse: Left button down, pos=(907,129)
+261.1859 	DATA 	Mouse:  Left button up, pos=(908,123)
+261.4693 	DATA 	Mouse: Left button down, pos=(766,24)
+261.4708 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+261.4708 	DATA 	RatingScale rating: rating RT=1.718
+261.4708 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.266), (u'Diagn\xf3stico Diferente', 1.718)]
+261.4866 	EXP 	New trial (rep=0, index=51): {u'Imagemteste': u'Test_8_50_jp2_bone.png', u'Imagemoriginal': u'Orig_8_bone.png'}
+261.5063 	EXP 	RatingScale rating: reset()
+261.5190 	EXP 	image_ref: autoDraw = False
+261.5190 	EXP 	image_test: autoDraw = False
+261.5190 	EXP 	rating: autoDraw = False
+261.5190 	EXP 	label_ref: autoDraw = False
+261.5190 	EXP 	label_teste: autoDraw = False
+261.5190 	EXP 	image_ref: image = u'Orig_8_bone.png'
+261.5190 	EXP 	image_test: image = u'Test_8_50_jp2_bone.png'
+261.5190 	EXP 	image_ref: autoDraw = True
+261.5190 	EXP 	image_test: autoDraw = True
+261.5190 	EXP 	rating: autoDraw = True
+261.5190 	EXP 	label_ref: autoDraw = True
+261.5190 	EXP 	label_teste: autoDraw = True
+261.6529 	DATA 	Mouse:  Left button up, pos=(766,24)
+262.0371 	DATA 	Mouse: Left button down, pos=(925,123)
+262.2041 	DATA 	Mouse:  Left button up, pos=(926,124)
+263.2742 	DATA 	Mouse: Left button down, pos=(804,39)
+263.2743 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+263.2743 	DATA 	RatingScale rating: rating RT=1.768
+263.2744 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.531), (u'Diagn\xf3stico Diferente', 1.768)]
+263.2900 	EXP 	New trial (rep=0, index=52): {u'Imagemteste': u'Test_0_30_jp2_bone.png', u'Imagemoriginal': u'Orig_0_bone.png'}
+263.3059 	EXP 	RatingScale rating: reset()
+263.3224 	EXP 	image_ref: autoDraw = False
+263.3224 	EXP 	image_test: autoDraw = False
+263.3224 	EXP 	rating: autoDraw = False
+263.3224 	EXP 	label_ref: autoDraw = False
+263.3224 	EXP 	label_teste: autoDraw = False
+263.3224 	EXP 	image_ref: image = u'Orig_0_bone.png'
+263.3224 	EXP 	image_test: image = u'Test_0_30_jp2_bone.png'
+263.3224 	EXP 	image_ref: autoDraw = True
+263.3224 	EXP 	image_test: autoDraw = True
+263.3224 	EXP 	rating: autoDraw = True
+263.3224 	EXP 	label_ref: autoDraw = True
+263.3224 	EXP 	label_teste: autoDraw = True
+263.4395 	DATA 	Mouse:  Left button up, pos=(804,39)
+263.8237 	DATA 	Mouse: Left button down, pos=(915,132)
+264.0257 	DATA 	Mouse:  Left button up, pos=(915,132)
+267.8832 	DATA 	Mouse: Left button down, pos=(774,77)
+268.0816 	DATA 	Mouse:  Left button up, pos=(774,77)
+268.3159 	DATA 	Mouse: Left button down, pos=(862,93)
+268.4489 	DATA 	Mouse:  Left button up, pos=(862,93)
+268.7831 	DATA 	Mouse: Left button down, pos=(925,117)
+268.8499 	DATA 	Mouse:  Left button up, pos=(890,92)
+269.0669 	DATA 	Mouse: Left button down, pos=(798,35)
+269.0683 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+269.0683 	DATA 	RatingScale rating: rating RT=5.762
+269.0683 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.518), (u'Diagn\xf3stico Diferente', 5.762)]
+269.0843 	EXP 	New trial (rep=0, index=53): {u'Imagemteste': u'Test_6_30_jp2_bone.png', u'Imagemoriginal': u'Orig_6_bone.png'}
+269.1033 	EXP 	RatingScale rating: reset()
+269.1166 	EXP 	image_ref: autoDraw = False
+269.1166 	EXP 	image_test: autoDraw = False
+269.1166 	EXP 	rating: autoDraw = False
+269.1166 	EXP 	label_ref: autoDraw = False
+269.1166 	EXP 	label_teste: autoDraw = False
+269.1166 	EXP 	image_ref: image = u'Orig_6_bone.png'
+269.1166 	EXP 	image_test: image = u'Test_6_30_jp2_bone.png'
+269.1166 	EXP 	image_ref: autoDraw = True
+269.1166 	EXP 	image_test: autoDraw = True
+269.1166 	EXP 	rating: autoDraw = True
+269.1166 	EXP 	label_ref: autoDraw = True
+269.1166 	EXP 	label_teste: autoDraw = True
+269.2022 	DATA 	Mouse:  Left button up, pos=(798,34)
+269.5009 	DATA 	Mouse: Left button down, pos=(916,127)
+269.6346 	DATA 	Mouse:  Left button up, pos=(911,119)
+269.9537 	DATA 	Mouse: Left button down, pos=(788,43)
+269.9539 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+269.9539 	DATA 	RatingScale rating: rating RT=0.850
+269.9539 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.398), (u'Diagn\xf3stico Diferente', 0.85)]
+269.9691 	EXP 	New trial (rep=0, index=54): {u'Imagemteste': u'Test_4_50_jp2_bone.png', u'Imagemoriginal': u'Orig_4_bone.png'}
+269.9847 	EXP 	RatingScale rating: reset()
+270.0015 	EXP 	image_ref: autoDraw = False
+270.0015 	EXP 	image_test: autoDraw = False
+270.0015 	EXP 	rating: autoDraw = False
+270.0015 	EXP 	label_ref: autoDraw = False
+270.0015 	EXP 	label_teste: autoDraw = False
+270.0015 	EXP 	image_ref: image = u'Orig_4_bone.png'
+270.0015 	EXP 	image_test: image = u'Test_4_50_jp2_bone.png'
+270.0015 	EXP 	image_ref: autoDraw = True
+270.0015 	EXP 	image_test: autoDraw = True
+270.0015 	EXP 	rating: autoDraw = True
+270.0015 	EXP 	label_ref: autoDraw = True
+270.0015 	EXP 	label_teste: autoDraw = True
+270.1189 	DATA 	Mouse:  Left button up, pos=(785,40)
+270.4194 	DATA 	Mouse: Left button down, pos=(893,122)
+270.5364 	DATA 	Mouse:  Left button up, pos=(893,122)
+270.9370 	DATA 	Mouse: Left button down, pos=(789,20)
+270.9385 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+270.9385 	DATA 	RatingScale rating: rating RT=0.953
+270.9385 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.435), (u'Diagn\xf3stico Diferente', 0.953)]
+270.9544 	EXP 	New trial (rep=0, index=55): {u'Imagemteste': u'Test_3_20_jpg_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}
+270.9709 	EXP 	RatingScale rating: reset()
+270.9868 	EXP 	image_ref: autoDraw = False
+270.9868 	EXP 	image_test: autoDraw = False
+270.9868 	EXP 	rating: autoDraw = False
+270.9868 	EXP 	label_ref: autoDraw = False
+270.9868 	EXP 	label_teste: autoDraw = False
+270.9868 	EXP 	image_ref: image = u'Orig_3_soft.png'
+270.9868 	EXP 	image_test: image = u'Test_3_20_jpg_soft.png'
+270.9868 	EXP 	image_ref: autoDraw = True
+270.9868 	EXP 	image_test: autoDraw = True
+270.9868 	EXP 	rating: autoDraw = True
+270.9868 	EXP 	label_ref: autoDraw = True
+270.9868 	EXP 	label_teste: autoDraw = True
+271.0871 	DATA 	Mouse:  Left button up, pos=(787,19)
+271.3714 	DATA 	Mouse: Left button down, pos=(903,119)
+271.5213 	DATA 	Mouse:  Left button up, pos=(903,119)
+272.0393 	DATA 	Mouse: Left button down, pos=(772,58)
+272.2059 	DATA 	Mouse:  Left button up, pos=(772,58)
+272.4582 	DATA 	Mouse: Left button down, pos=(753,29)
+272.4584 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+272.4584 	DATA 	RatingScale rating: rating RT=1.487
+272.4584 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.401), (u'Diagn\xf3stico Diferente', 1.487)]
+272.4739 	EXP 	New trial (rep=0, index=56): {u'Imagemteste': u'Test_2_20_jp2_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}
+272.4903 	EXP 	RatingScale rating: reset()
+272.5062 	EXP 	image_ref: autoDraw = False
+272.5062 	EXP 	image_test: autoDraw = False
+272.5062 	EXP 	rating: autoDraw = False
+272.5062 	EXP 	label_ref: autoDraw = False
+272.5062 	EXP 	label_teste: autoDraw = False
+272.5062 	EXP 	image_ref: image = u'Orig_2_bone.png'
+272.5062 	EXP 	image_test: image = u'Test_2_20_jp2_bone.png'
+272.5062 	EXP 	image_ref: autoDraw = True
+272.5062 	EXP 	image_test: autoDraw = True
+272.5062 	EXP 	rating: autoDraw = True
+272.5062 	EXP 	label_ref: autoDraw = True
+272.5062 	EXP 	label_teste: autoDraw = True
+272.6235 	DATA 	Mouse:  Left button up, pos=(753,29)
+273.3583 	DATA 	Mouse: Left button down, pos=(508,127)
+273.4752 	DATA 	Mouse:  Left button up, pos=(508,127)
+273.8927 	DATA 	Mouse: Left button down, pos=(648,47)
+273.8941 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+273.8941 	DATA 	RatingScale rating: rating RT=1.404
+273.8941 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 0.869), (u'Mesmo Diagn\xf3stico', 1.404)]
+273.9099 	EXP 	New trial (rep=0, index=57): {u'Imagemteste': u'Orig_1_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+273.9263 	EXP 	RatingScale rating: reset()
+273.9423 	EXP 	image_ref: autoDraw = False
+273.9423 	EXP 	image_test: autoDraw = False
+273.9423 	EXP 	rating: autoDraw = False
+273.9423 	EXP 	label_ref: autoDraw = False
+273.9423 	EXP 	label_teste: autoDraw = False
+273.9423 	EXP 	image_ref: image = u'Orig_1_soft.png'
+273.9423 	EXP 	image_test: image = u'Orig_1_soft.png'
+273.9423 	EXP 	image_ref: autoDraw = True
+273.9423 	EXP 	image_test: autoDraw = True
+273.9423 	EXP 	rating: autoDraw = True
+273.9423 	EXP 	label_ref: autoDraw = True
+273.9423 	EXP 	label_teste: autoDraw = True
+274.0262 	DATA 	Mouse:  Left button up, pos=(664,44)
+274.6442 	DATA 	Mouse: Left button down, pos=(962,124)
+274.7613 	DATA 	Mouse:  Left button up, pos=(963,124)
+275.1116 	DATA 	Mouse: Left button down, pos=(933,97)
+275.2951 	DATA 	Mouse:  Left button up, pos=(933,97)
+275.7964 	DATA 	Mouse: Left button down, pos=(933,119)
+275.9631 	DATA 	Mouse:  Left button up, pos=(933,119)
+276.5312 	DATA 	Mouse: Left button down, pos=(797,29)
+276.5327 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+276.5327 	DATA 	RatingScale rating: rating RT=2.606
+276.5328 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.871), (u'Diagn\xf3stico Diferente', 2.606)]
+276.5484 	EXP 	New trial (rep=0, index=58): {u'Imagemteste': u'Test_1_30_jpg_soft.png', u'Imagemoriginal': u'Orig_1_soft.png'}
+276.5657 	EXP 	RatingScale rating: reset()
+276.5806 	EXP 	image_ref: autoDraw = False
+276.5806 	EXP 	image_test: autoDraw = False
+276.5806 	EXP 	rating: autoDraw = False
+276.5806 	EXP 	label_ref: autoDraw = False
+276.5806 	EXP 	label_teste: autoDraw = False
+276.5806 	EXP 	image_ref: image = u'Orig_1_soft.png'
+276.5806 	EXP 	image_test: image = u'Test_1_30_jpg_soft.png'
+276.5806 	EXP 	image_ref: autoDraw = True
+276.5806 	EXP 	image_test: autoDraw = True
+276.5806 	EXP 	rating: autoDraw = True
+276.5806 	EXP 	label_ref: autoDraw = True
+276.5806 	EXP 	label_teste: autoDraw = True
+276.7315 	DATA 	Mouse:  Left button up, pos=(795,28)
+277.1154 	DATA 	Mouse: Left button down, pos=(958,104)
+277.2489 	DATA 	Mouse:  Left button up, pos=(957,104)
+277.6000 	DATA 	Mouse: Left button down, pos=(804,22)
+277.6017 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+277.6017 	DATA 	RatingScale rating: rating RT=1.036
+277.6018 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.55), (u'Diagn\xf3stico Diferente', 1.036)]
+277.6170 	EXP 	New trial (rep=0, index=59): {u'Imagemteste': u'Test_0_20_jp2_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}
+277.6336 	EXP 	RatingScale rating: reset()
+277.6493 	EXP 	image_ref: autoDraw = False
+277.6493 	EXP 	image_test: autoDraw = False
+277.6493 	EXP 	rating: autoDraw = False
+277.6493 	EXP 	label_ref: autoDraw = False
+277.6493 	EXP 	label_teste: autoDraw = False
+277.6493 	EXP 	image_ref: image = u'Orig_0_soft.png'
+277.6493 	EXP 	image_test: image = u'Test_0_20_jp2_soft.png'
+277.6493 	EXP 	image_ref: autoDraw = True
+277.6493 	EXP 	image_test: autoDraw = True
+277.6493 	EXP 	rating: autoDraw = True
+277.6493 	EXP 	label_ref: autoDraw = True
+277.6493 	EXP 	label_teste: autoDraw = True
+277.7332 	DATA 	Mouse:  Left button up, pos=(819,30)
+279.6870 	DATA 	Mouse: Left button down, pos=(840,106)
+279.8537 	DATA 	Mouse:  Left button up, pos=(840,106)
+280.3047 	DATA 	Mouse: Left button down, pos=(727,55)
+280.4737 	DATA 	Mouse:  Left button up, pos=(727,55)
+280.8724 	DATA 	Mouse: Left button down, pos=(734,61)
+280.9741 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+280.9742 	DATA 	RatingScale rating: rating RT=3.340
+280.9742 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 2.054), (u'Diagn\xf3stico Diferente', 3.34)]
+280.9904 	EXP 	New trial (rep=0, index=60): {u'Imagemteste': u'Test_7_70_jpg_soft.png', u'Imagemoriginal': u'Orig_7_soft.png'}
+281.0097 	EXP 	RatingScale rating: reset()
+281.0223 	EXP 	image_ref: autoDraw = False
+281.0223 	EXP 	image_test: autoDraw = False
+281.0223 	EXP 	rating: autoDraw = False
+281.0223 	EXP 	label_ref: autoDraw = False
+281.0223 	EXP 	label_teste: autoDraw = False
+281.0223 	EXP 	image_ref: image = u'Orig_7_soft.png'
+281.0223 	EXP 	image_test: image = u'Test_7_70_jpg_soft.png'
+281.0223 	EXP 	image_ref: autoDraw = True
+281.0223 	EXP 	image_test: autoDraw = True
+281.0223 	EXP 	rating: autoDraw = True
+281.0223 	EXP 	label_ref: autoDraw = True
+281.0223 	EXP 	label_teste: autoDraw = True
+281.0395 	DATA 	Mouse:  Left button up, pos=(732,50)
+281.1564 	DATA 	Mouse: Left button down, pos=(731,20)
+281.3233 	DATA 	Mouse:  Left button up, pos=(730,19)
+281.7240 	DATA 	Mouse: Left button down, pos=(484,105)
+281.8908 	DATA 	Mouse:  Left button up, pos=(484,105)
+282.3919 	DATA 	Mouse: Left button down, pos=(686,35)
+282.3933 	DATA 	RatingScale rating: (mouse response) rating=Mesmo Diagnóstico
+282.3933 	DATA 	RatingScale rating: rating RT=1.383
+282.3933 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Mesmo Diagn\xf3stico', 0.715), (u'Mesmo Diagn\xf3stico', 1.383)]
+282.4093 	EXP 	New trial (rep=0, index=61): {u'Imagemteste': u'Test_2_30_jpg_bone.png', u'Imagemoriginal': u'Orig_2_bone.png'}
+282.4250 	EXP 	RatingScale rating: reset()
+282.4416 	EXP 	image_ref: autoDraw = False
+282.4416 	EXP 	image_test: autoDraw = False
+282.4416 	EXP 	rating: autoDraw = False
+282.4416 	EXP 	label_ref: autoDraw = False
+282.4416 	EXP 	label_teste: autoDraw = False
+282.4416 	EXP 	image_ref: image = u'Orig_2_bone.png'
+282.4416 	EXP 	image_test: image = u'Test_2_30_jpg_bone.png'
+282.4416 	EXP 	image_ref: autoDraw = True
+282.4416 	EXP 	image_test: autoDraw = True
+282.4416 	EXP 	rating: autoDraw = True
+282.4416 	EXP 	label_ref: autoDraw = True
+282.4416 	EXP 	label_teste: autoDraw = True
+282.4920 	DATA 	Mouse:  Left button up, pos=(686,35)
+282.9262 	DATA 	Mouse: Left button down, pos=(921,115)
+283.0266 	DATA 	Mouse:  Left button up, pos=(922,115)
+283.3604 	DATA 	Mouse: Left button down, pos=(761,23)
+283.3618 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+283.3619 	DATA 	RatingScale rating: rating RT=0.936
+283.3619 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.502), (u'Diagn\xf3stico Diferente', 0.936)]
+283.3776 	EXP 	New trial (rep=0, index=62): {u'Imagemteste': u'Test_6_30_jp2_soft.png', u'Imagemoriginal': u'Orig_6_soft.png'}
+283.3972 	EXP 	RatingScale rating: reset()
+283.4101 	EXP 	image_ref: autoDraw = False
+283.4101 	EXP 	image_test: autoDraw = False
+283.4101 	EXP 	rating: autoDraw = False
+283.4101 	EXP 	label_ref: autoDraw = False
+283.4101 	EXP 	label_teste: autoDraw = False
+283.4101 	EXP 	image_ref: image = u'Orig_6_soft.png'
+283.4101 	EXP 	image_test: image = u'Test_6_30_jp2_soft.png'
+283.4101 	EXP 	image_ref: autoDraw = True
+283.4101 	EXP 	image_test: autoDraw = True
+283.4101 	EXP 	rating: autoDraw = True
+283.4101 	EXP 	label_ref: autoDraw = True
+283.4101 	EXP 	label_teste: autoDraw = True
+283.4938 	DATA 	Mouse:  Left button up, pos=(761,23)
+283.8447 	DATA 	Mouse: Left button down, pos=(874,106)
+283.9782 	DATA 	Mouse:  Left button up, pos=(875,106)
+284.3461 	DATA 	Mouse: Left button down, pos=(762,18)
+284.3475 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+284.3475 	DATA 	RatingScale rating: rating RT=0.950
+284.3475 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.448), (u'Diagn\xf3stico Diferente', 0.95)]
+284.3630 	EXP 	New trial (rep=0, index=63): {u'Imagemteste': u'Test_0_30_jpg_soft.png', u'Imagemoriginal': u'Orig_0_soft.png'}
+284.3792 	EXP 	RatingScale rating: reset()
+284.3953 	EXP 	image_ref: autoDraw = False
+284.3953 	EXP 	image_test: autoDraw = False
+284.3953 	EXP 	rating: autoDraw = False
+284.3953 	EXP 	label_ref: autoDraw = False
+284.3953 	EXP 	label_teste: autoDraw = False
+284.3953 	EXP 	image_ref: image = u'Orig_0_soft.png'
+284.3953 	EXP 	image_test: image = u'Test_0_30_jpg_soft.png'
+284.3953 	EXP 	image_ref: autoDraw = True
+284.3953 	EXP 	image_test: autoDraw = True
+284.3953 	EXP 	rating: autoDraw = True
+284.3953 	EXP 	label_ref: autoDraw = True
+284.3953 	EXP 	label_teste: autoDraw = True
+284.4957 	DATA 	Mouse:  Left button up, pos=(762,18)
+284.8298 	DATA 	Mouse: Left button down, pos=(831,89)
+284.9799 	DATA 	Mouse:  Left button up, pos=(831,89)
+285.4313 	DATA 	Mouse: Left button down, pos=(915,127)
+285.5985 	DATA 	Mouse:  Left button up, pos=(915,121)
+286.0660 	DATA 	Mouse: Left button down, pos=(758,15)
+286.0674 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+286.0674 	DATA 	RatingScale rating: rating RT=1.688
+286.0675 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.053), (u'Diagn\xf3stico Diferente', 1.688)]
+286.0829 	EXP 	New trial (rep=0, index=64): {u'Imagemteste': u'Test_2_70_jpg_soft.png', u'Imagemoriginal': u'Orig_2_soft.png'}
+286.1007 	EXP 	RatingScale rating: reset()
+286.1151 	EXP 	image_ref: autoDraw = False
+286.1151 	EXP 	image_test: autoDraw = False
+286.1151 	EXP 	rating: autoDraw = False
+286.1151 	EXP 	label_ref: autoDraw = False
+286.1151 	EXP 	label_teste: autoDraw = False
+286.1151 	EXP 	image_ref: image = u'Orig_2_soft.png'
+286.1151 	EXP 	image_test: image = u'Test_2_70_jpg_soft.png'
+286.1151 	EXP 	image_ref: autoDraw = True
+286.1151 	EXP 	image_test: autoDraw = True
+286.1151 	EXP 	rating: autoDraw = True
+286.1151 	EXP 	label_ref: autoDraw = True
+286.1151 	EXP 	label_teste: autoDraw = True
+286.2160 	DATA 	Mouse:  Left button up, pos=(756,15)
+286.5832 	DATA 	Mouse: Left button down, pos=(923,100)
+286.7166 	DATA 	Mouse:  Left button up, pos=(923,100)
+287.0342 	DATA 	Mouse: Left button down, pos=(877,73)
+287.2008 	DATA 	Mouse:  Left button up, pos=(877,73)
+287.4348 	DATA 	Mouse: Left button down, pos=(909,121)
+287.5695 	DATA 	Mouse:  Left button up, pos=(909,121)
+287.9023 	DATA 	Mouse: Left button down, pos=(774,34)
+287.9037 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+287.9038 	DATA 	RatingScale rating: rating RT=1.803
+287.9038 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.335), (u'Diagn\xf3stico Diferente', 1.803)]
+287.9197 	EXP 	New trial (rep=0, index=65): {u'Imagemteste': u'Test_9_20_jp2_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+287.9384 	EXP 	RatingScale rating: reset()
+287.9519 	EXP 	image_ref: autoDraw = False
+287.9519 	EXP 	image_test: autoDraw = False
+287.9519 	EXP 	rating: autoDraw = False
+287.9519 	EXP 	label_ref: autoDraw = False
+287.9519 	EXP 	label_teste: autoDraw = False
+287.9519 	EXP 	image_ref: image = u'Orig_9_soft.png'
+287.9519 	EXP 	image_test: image = u'Test_9_20_jp2_soft.png'
+287.9519 	EXP 	image_ref: autoDraw = True
+287.9519 	EXP 	image_test: autoDraw = True
+287.9519 	EXP 	rating: autoDraw = True
+287.9519 	EXP 	label_ref: autoDraw = True
+287.9519 	EXP 	label_teste: autoDraw = True
+288.0525 	DATA 	Mouse:  Left button up, pos=(770,32)
+288.3865 	DATA 	Mouse: Left button down, pos=(908,126)
+288.5538 	DATA 	Mouse:  Left button up, pos=(908,126)
+288.9060 	DATA 	Mouse: Left button down, pos=(746,19)
+288.9062 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+288.9062 	DATA 	RatingScale rating: rating RT=0.967
+288.9062 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 0.449), (u'Diagn\xf3stico Diferente', 0.967)]
+288.9214 	EXP 	New trial (rep=0, index=66): {u'Imagemteste': u'Test_3_20_jp2_soft.png', u'Imagemoriginal': u'Orig_3_soft.png'}
+288.9391 	EXP 	RatingScale rating: reset()
+288.9538 	EXP 	image_ref: autoDraw = False
+288.9538 	EXP 	image_test: autoDraw = False
+288.9538 	EXP 	rating: autoDraw = False
+288.9538 	EXP 	label_ref: autoDraw = False
+288.9538 	EXP 	label_teste: autoDraw = False
+288.9538 	EXP 	image_ref: image = u'Orig_3_soft.png'
+288.9538 	EXP 	image_test: image = u'Test_3_20_jp2_soft.png'
+288.9538 	EXP 	image_ref: autoDraw = True
+288.9538 	EXP 	image_test: autoDraw = True
+288.9538 	EXP 	rating: autoDraw = True
+288.9538 	EXP 	label_ref: autoDraw = True
+288.9538 	EXP 	label_teste: autoDraw = True
+289.1045 	DATA 	Mouse:  Left button up, pos=(746,19)
+289.4054 	DATA 	Mouse: Left button down, pos=(892,90)
+289.5887 	DATA 	Mouse:  Left button up, pos=(897,87)
+289.9729 	DATA 	Mouse: Left button down, pos=(938,139)
+290.1230 	DATA 	Mouse:  Left button up, pos=(938,139)
+290.4070 	DATA 	Mouse: Left button down, pos=(806,26)
+290.4087 	DATA 	RatingScale rating: (mouse response) rating=Diagnóstico Diferente
+290.4087 	DATA 	RatingScale rating: rating RT=1.469
+290.4088 	DATA 	RatingScale rating: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 1.034), (u'Diagn\xf3stico Diferente', 1.469)]
+290.4243 	EXP 	New trial (rep=0, index=67): {u'Imagemteste': u'Test_9_30_jp2_bone.png', u'Imagemoriginal': u'Orig_9_bone.png'}
+290.4442 	EXP 	RatingScale rating: reset()
+290.4566 	EXP 	image_ref: autoDraw = False
+290.4566 	EXP 	image_test: autoDraw = False
+290.4566 	EXP 	rating: autoDraw = False
+290.4566 	EXP 	label_ref: autoDraw = False
+290.4566 	EXP 	label_teste: autoDraw = False
+290.4566 	EXP 	image_ref: image = u'Orig_9_bone.png'
+290.4566 	EXP 	image_test: image = u'Test_9_30_jp2_bone.png'
+290.4566 	EXP 	image_ref: autoDraw = True
+290.4566 	EXP 	image_test: autoDraw = True
+290.4566 	EXP 	rating: autoDraw = True
+290.4566 	EXP 	label_ref: autoDraw = True
+290.4566 	EXP 	label_teste: autoDraw = True
+290.5738 	DATA 	Mouse:  Left button up, pos=(806,26)
+290.9079 	DATA 	Mouse: Left button down, pos=(925,121)
+291.0264 	DATA 	Mouse:  Left button up, pos=(927,122)
+291.7427 	DATA 	Keypress: escape

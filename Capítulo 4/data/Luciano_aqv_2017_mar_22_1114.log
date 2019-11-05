@@ -1,0 +1,66 @@
+2.3407 	WARNING 	pygame audio lib was requested but not loaded: No module named pygame
+13.1056 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x09D1B090>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.1056 	EXP 	window1: recordFrameIntervals = False
+13.2718 	EXP 	window1: recordFrameIntervals = True
+13.4556 	EXP 	window1: recordFrameIntervals = False
+13.5776 	EXP 	Created title = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='title', opacity=1.0, ori=0, pos=array([ 0. ,  0.8]), rgb=array([ 255.,  255.,  255.]), text=u'Avalia\xe7\xe3o de Qualidade Visual', units=u'norm', win=Window(...), wrapWidth=1)
+13.5955 	EXP 	Created question = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='question', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+13.6021 	EXP 	Created goon = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='goon', opacity=1.0, ori=0, pos=array([ 0. , -0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Aperte qualquer tecla para continuar...', units=u'norm', win=Window(...), wrapWidth=1)
+13.6058 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+13.6080 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+13.6197 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+13.6271 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de refer\xeancia', units=u'norm', win=Window(...), wrapWidth=1)
+13.6322 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0. ,  0.9]), rgb=array([ 255.,  255.,  255.]), text=u'Fase de aquecimento\n', units=u'norm', win=Window(...), wrapWidth=1)
+13.6718 	EXP 	Created rating_2 = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating_2', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=0.72, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.144, tickHeight=-1, tickMarks=1.0, win=Window(...))
+13.6790 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+13.6815 	EXP 	Created image_ref = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_ref', opacity=1.0, ori=0.0, pos=array([-325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+13.6840 	EXP 	Created image_test = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_test', opacity=1.0, ori=0.0, pos=array([ 325.,    0.]), size=array([ 512.,  512.]), texRes=128, units='pix', win=Window(...))
+13.7337 	EXP 	Created rating = RatingScale(acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText=u'accept?', autoLog=True, choices=list(...), depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.7], precision=1, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=1.2, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.24, tickHeight=-1, tickMarks=1.0, win=Window(...))
+13.7393 	EXP 	Created label_ref = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_ref', opacity=1.0, ori=0, pos=array([-0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Refer\xeancia', units=u'norm', win=Window(...), wrapWidth=10)
+13.7433 	EXP 	Created label_teste = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.08, italic=False, name='label_teste', opacity=1.0, ori=0, pos=array([ 0.45,  0.8 ]), rgb=array([ 255.,  255.,  255.]), text=u'Imagem de Teste', units=u'norm', win=Window(...), wrapWidth=1)
+13.7560 	EXP 	rating_2: flipVert = False
+13.7560 	EXP 	rating_2: autoLog = True
+13.7560 	EXP 	rating: flipVert = False
+13.7560 	EXP 	rating: autoLog = True
+13.7560 	EXP 	title: autoDraw = True
+13.7560 	EXP 	question: autoDraw = True
+13.7560 	EXP 	goon: autoDraw = True
+29.0015 	DATA 	Keypress: return
+29.0122 	EXP 	Imported trial.xlsx as conditions, 3 conditions, 2 params
+29.0124 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+29.0126 	EXP 	New trial (rep=0, index=0): {u'Imagemteste': u'Test_9_70_jpg_soft.png', u'Imagemoriginal': u'Orig_9_soft.png'}
+29.0333 	EXP 	RatingScale rating_2: reset()
+29.0513 	EXP 	title: autoDraw = False
+29.0513 	EXP 	question: autoDraw = False
+29.0513 	EXP 	goon: autoDraw = False
+29.0513 	EXP 	image: image = u'Orig_9_soft.png'
+29.0513 	EXP 	image_2: image = u'Test_9_70_jpg_soft.png'
+29.0513 	EXP 	image: autoDraw = True
+29.0513 	EXP 	image_2: autoDraw = True
+29.0513 	EXP 	text: autoDraw = True
+29.0513 	EXP 	text_2: autoDraw = True
+29.0513 	EXP 	text_3: autoDraw = True
+29.0513 	EXP 	rating_2: autoDraw = True
+42.4434 	DATA 	Mouse: Left button down, pos=(724,146)
+42.6103 	DATA 	Mouse:  Left button up, pos=(724,146)
+44.7477 	DATA 	Keypress: left
+50.2080 	DATA 	Mouse: Left button down, pos=(747,23)
+50.2091 	DATA 	RatingScale rating_2: (mouse response) rating=Mesmo Diagnóstico
+50.2092 	DATA 	RatingScale rating_2: rating RT=21.176
+50.2092 	DATA 	RatingScale rating_2: history=[(None, 0.0), (u'Diagn\xf3stico Diferente', 13.41), (u'Mesmo Diagn\xf3stico', 15.715), (u'Mesmo Diagn\xf3stico', 21.176)]
+50.3248 	DATA 	Mouse:  Left button up, pos=(747,23)
+51.6440 	DATA 	Mouse: Left button down, pos=(699,28)
+51.7442 	DATA 	Mouse:  Left button up, pos=(699,28)
+53.1801 	DATA 	Keypress: return
+55.5012 	DATA 	Mouse: Left button down, pos=(597,11)
+55.6180 	DATA 	Mouse:  Left button up, pos=(597,11)
+56.9373 	DATA 	Keypress: numlock
+57.1543 	DATA 	Keypress: numlock
+57.4215 	DATA 	Keypress: numlock
+61.6473 	DATA 	Mouse: Left button down, pos=(865,117)
+61.7630 	DATA 	Mouse:  Left button up, pos=(865,117)
+62.0311 	DATA 	Mouse: Left button down, pos=(956,131)
+62.1804 	DATA 	Mouse:  Left button up, pos=(956,131)
+63.5832 	DATA 	Mouse: Left button down, pos=(574,6)
+63.7167 	DATA 	Mouse:  Left button up, pos=(574,6)
+67.7409 	DATA 	Keypress: escape

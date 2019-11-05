@@ -1,0 +1,11 @@
+Imagemteste,Imagemoriginal,n,mouse.leftButton_mean,mouse.leftButton_raw,mouse.leftButton_std,mouse.midButton_mean,mouse.midButton_raw,mouse.midButton_std,mouse.rightButton_mean,mouse.rightButton_raw,mouse.rightButton_std,mouse.x_mean,mouse.x_raw,mouse.y_mean,mouse.y_raw,rating_2.response_raw,rating_2.rt_mean,rating_2.rt_raw,rating_2.rt_std,order
+Test_0_10_jp2_bone.png,Orig_0_bone.png,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.0180555555556,-0.018055555555555554,-0.775555555556,-0.77555555555555555,u'Normal',21.297000885,21.297000885009766,0.0,1.0
+Test_3_50_jpg_bone.png,Orig_3_bone.png,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.181944444444,0.18194444444444444,-0.675555555556,-0.67555555555555558,u'Inconclusivo',14.8030004501,14.803000450134277,0.0,2.0
+Test_9_70_jpg_soft.png,Orig_9_soft.png,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0138888888889,0.013888888888888888,-0.942222222222,-0.94222222222222218,u'Inconclusivo',45.1310005188,45.13100051879883,0.0,0.0
+
+extraInfo
+date,2017_mar_22_1110
+frameRate,59.8810699732
+expName,aqv2
+session,001
+participant,Agustinho
